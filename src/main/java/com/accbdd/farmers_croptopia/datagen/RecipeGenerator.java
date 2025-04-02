@@ -10,8 +10,11 @@ import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.PackType;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.RecipeManager;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.DataPackRegistriesHooks;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.CompletableFuture;
@@ -30,7 +33,6 @@ public class RecipeGenerator extends RecipeProvider {
     @Override
     protected void buildRecipes(@NotNull Consumer<FinishedRecipe> output) {
         modifyRecipes(output);
-        //FarmersCroptopia.LOGGER.debug(existingFileHelper.exists());
     }
 
     private void modifyRecipes(Consumer<FinishedRecipe> output) {
