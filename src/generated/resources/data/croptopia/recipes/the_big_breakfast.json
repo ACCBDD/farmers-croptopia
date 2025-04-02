@@ -9,16 +9,16 @@
       "tag": "forge:raw_bacon"
     },
     "3": {
-      "item": "croptopia:hashed_brown"
+      "tag": "forge:hashed_brown"
     },
     "4": {
-      "item": "croptopia:baked_beans"
+      "tag": "forge:baked_beans"
     },
     "5": {
       "tag": "forge:sausages"
     },
     "6": {
-      "item": "croptopia:toast"
+      "tag": "forge:toasts"
     },
     "7": {
       "item": "croptopia:frying_pan"

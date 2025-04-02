@@ -121,7 +121,7 @@ dependencies {
     }
 
     //load my freakin tags
-    runtimeOnly fg.deobf("curse.maven:lmft-656346:4892299")
+    //runtimeOnly fg.deobf("curse.maven:lmft-656346:4892299")
 
     //extra compat
     runtimeOnly fg.deobf("curse.maven:farmers-respite-551453:5543547")
