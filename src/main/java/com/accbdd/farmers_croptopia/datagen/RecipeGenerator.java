@@ -1,20 +1,15 @@
 package com.accbdd.farmers_croptopia.datagen;
 
-import com.accbdd.farmers_croptopia.FarmersCroptopia;
 import com.epherical.croptopia.register.Content;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.packs.PackType;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.crafting.RecipeManager;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.DataPackRegistriesHooks;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.CompletableFuture;
@@ -32,10 +27,7 @@ public class RecipeGenerator extends RecipeProvider {
 
     @Override
     protected void buildRecipes(@NotNull Consumer<FinishedRecipe> output) {
-        modifyRecipes(output);
-    }
-
-    private void modifyRecipes(Consumer<FinishedRecipe> output) {
+        //croptopia
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Content.THE_BIG_BREAKFAST)
                 .pattern("123")
                 .pattern("736")

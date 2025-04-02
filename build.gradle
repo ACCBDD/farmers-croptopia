@@ -121,16 +121,16 @@ dependencies {
     }
 
     //load my freakin tags
-    //runtimeOnly fg.deobf("curse.maven:lmft-656346:4892299")
+    runtimeOnly fg.deobf("curse.maven:lmft-656346:4892299")
 
     //extra compat
-    runtimeOnly fg.deobf("curse.maven:farmers-respite-551453:5543547")
-    runtimeOnly fg.deobf("curse.maven:nethers-delight-496394:4736227")
-    runtimeOnly fg.deobf("curse.maven:oceans-delight-841262:4652060")
-    runtimeOnly fg.deobf("curse.maven:enders-delight-827163:4760462")
-    runtimeOnly fg.deobf("curse.maven:seed-delight-1016377:5734725")
-    //runtimeOnly fg.deobf("com.phantomwing:rusticdelight:forge-1.20.1-1.3.0")//local
-    runtimeOnly fg.deobf("curse.maven:delightful-637529:5942193")
+    //runtimeOnly fg.deobf("curse.maven:farmers-respite-551453:5543547")
+    implementation fg.deobf("curse.maven:nethers-delight-496394:4736227")
+    implementation fg.deobf("curse.maven:oceans-delight-841262:4652060")
+    implementation fg.deobf("curse.maven:enders-delight-827163:4760462")
+    implementation fg.deobf("curse.maven:seed-delight-1016377:5734725")
+    implementation fg.deobf("com.phantomwing:rusticdelight:1.3.0")//local
+    implementation fg.deobf("curse.maven:delightful-637529:5942193")
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
