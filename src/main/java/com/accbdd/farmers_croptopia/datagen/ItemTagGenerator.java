@@ -22,39 +22,19 @@ public class ItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        //croptopia
-        tag(CroptopiaTags.BEEF_MUTTON).add(
-                ModItems.MINCED_BEEF.get(),
-                ModItems.MUTTON_CHOPS.get()
-        );
-        tag(CroptopiaTags.BEEF_REPLACEMENTS).add(
-                ModItems.MINCED_BEEF.get()
-        );
-        tag(CroptopiaTags.CHICKEN_REPLACEMENTS).add(
-                ModItems.CHICKEN_CUTS.get()
-        );
-        tag(CroptopiaTags.FISHES).add(
-                ModItems.COD_SLICE.get(),
-                ModItems.SALMON_SLICE.get());
-        tag(CroptopiaTags.MEAT_REPLACEMENTS).add(
-                ModItems.MINCED_BEEF.get(),
-                ModItems.MUTTON_CHOPS.get(),
-                ModItems.CHICKEN_CUTS.get()
-        );
-
-        //farmers delight
-        tag(FarmersDelightTags.CABBAGE_ROLL_INGREDIENTS).addOptionalTag(
-                CommonTags.TURNIPS
+        //fd base to croptopia tags
+        tag(CroptopiaTags.BEEF_MUTTON).addOptionalTag(CommonTags.RAW_BEEF);
+        tag(CroptopiaTags.BEEF_REPLACEMENTS).addOptionalTag(CommonTags.RAW_BEEF);
+        tag(CroptopiaTags.CHICKEN_REPLACEMENTS).addOptionalTag(CommonTags.RAW_CHICKEN);
+        //don't add bacon bc bacon is not a pork replacement...
+        tag(CroptopiaTags.FISHES).addOptionalTag(CommonTags.RAW_FISHES);
+        tag(CroptopiaTags.MEAT_REPLACEMENTS).addOptionalTags(
+                CommonTags.RAW_BEEF,
+                CommonTags.RAW_CHICKEN,
+                CommonTags.RAW_MUTTON
         );
 
         //rustic delight
-        addToTags(com.phantomwing.rusticdelight.item.ModItems.COTTON_BOLL.get(), tag(CommonTags.CROPS$COTTON));
-        tag(CommonTags.BELLPEPPERS).addOptionalTag(CommonTags.CROPS$BELL_PEPPER);
-        tag(CroptopiaTags.PEPPERS).addOptionalTag(CommonTags.CROPS$BELL_PEPPER);
-        addToTags(com.phantomwing.rusticdelight.item.ModItems.ROASTED_COFFEE_BEANS.get(), tag(CommonTags.COFFEE_BEANS));
-
-
-
     }
 
     private static ResourceLocation loc(String str) {

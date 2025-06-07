@@ -1,6 +1,8 @@
 {
   "values": [
-    "farmersdelight:minced_beef",
-    "farmersdelight:mutton_chops"
+    {
+      "id": "#forge:raw_beef",
+      "required": false
+    }
   ]
 }

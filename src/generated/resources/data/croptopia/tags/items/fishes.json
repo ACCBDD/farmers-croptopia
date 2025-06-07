@@ -1,6 +1,8 @@
 {
   "values": [
-    "farmersdelight:cod_slice",
-    "farmersdelight:salmon_slice"
+    {
+      "id": "#forge:raw_fishes",
+      "required": false
+    }
   ]
 }

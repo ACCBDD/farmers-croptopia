@@ -1,5 +1,8 @@
 {
   "values": [
-    "farmersdelight:chicken_cuts"
+    {
+      "id": "#forge:raw_chicken",
+      "required": false
+    }
   ]
 }
