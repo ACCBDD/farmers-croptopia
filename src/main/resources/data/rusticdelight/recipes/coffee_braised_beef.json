@@ -5,11 +5,13 @@
       "modid": "rusticdelight"
     }
   ],
-  "type": "minecraft:crafting_shapeless",
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 1.0,
   "ingredients": [
-    {
-      "item": "croptopia:cooking_pot"
-    },
     {
       "tag": "forge:raw_beef"
     },
@@ -21,11 +23,9 @@
     },
     {
       "tag": "forge:vegetables/potato"
-    },
-    {
-      "item": "minecraft:bowl"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "rusticdelight:coffee_braised_beef"
   }

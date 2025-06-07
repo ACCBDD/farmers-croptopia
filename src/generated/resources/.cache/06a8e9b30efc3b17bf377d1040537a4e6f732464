@@ -1,6 +1,10 @@
-// 1.20.1	2025-06-06T19:27:04.6762074	Tags for minecraft:item mod id farmers_croptopia
+// 1.20.1	2025-06-07T16:19:58.0090164	Tags for minecraft:item mod id farmers_croptopia
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_mutton.json
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_replacements.json
 66e229f090f37976f4634826a09514f232d06134 data/croptopia/tags/items/chicken_replacements.json
 dd37877308da07869bd77598d8f5a01222f9d58f data/croptopia/tags/items/fishes.json
 36bc4fa6b787f67c19688688e951bda4a5d56047 data/croptopia/tags/items/meat_replacements.json
+1e6e635b818a283648012a627fe8050ef58f45a6 data/forge/tags/items/calamari.json
+4d2eddc7e4e5314b4d2cc34809deee53ed92883b data/forge/tags/items/coffees.json
+6ade92eb32832695a8b920011cf712a0592e0005 data/forge/tags/items/coffee_beans.json
+db8049c479ef7499c63f538d9bd663618dcccf0f data/forge/tags/items/vegetables.json

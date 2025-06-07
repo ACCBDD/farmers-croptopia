@@ -35,6 +35,11 @@ public class ItemTagGenerator extends ItemTagsProvider {
         );
 
         //rustic delight
+        tag(CommonTags.VEGETABLES).addOptionalTag(CommonTags.VEGETABLES$BELLPEPPER);
+        tag(CommonTags.COFFEE_BEANS).addOptional(loc("rusticdelight:roasted_coffee_beans")); //roasted, not raw
+        tag(CommonTags.CALAMARI).addOptional(loc("rusticdelight:calamari"));
+        tag(CommonTags.COFFEES).addOptional(loc("rusticdelight:coffee"));
+
     }
 
     private static ResourceLocation loc(String str) {
