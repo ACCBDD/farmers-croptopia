@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 @Mod(FarmersCroptopia.MODID)
 public class FarmersCroptopia
 {
-    public static final String MODID = "zfarmers_croptopia";
+    public static final String MODID = "farmers_croptopia";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public FarmersCroptopia()

@@ -2,7 +2,7 @@
   "forge:conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "seeddelight"
+      "modid": "seeddelight:seeddelight"
     }
   ],
   "type": "minecraft:crafting_shapeless",
