@@ -8,6 +8,9 @@
     },
     {
       "tag": "forge:milks"
+    },
+    {
+      "tag": "forge:salts"
     }
   ],
   "result": {
