@@ -2,7 +2,7 @@
   "forge:conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "rusticdelight"
+      "modid": "oceansdelight"
     }
   ],
   "type": "minecraft:crafting_shapeless",
