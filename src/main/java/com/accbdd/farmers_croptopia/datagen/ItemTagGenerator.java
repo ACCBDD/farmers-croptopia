@@ -5,6 +5,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -22,6 +23,17 @@ public class ItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
+        //croptopia to new tags
+        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:cooked_shrimp"));
+        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:steamed_crab"));
+        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:grilled_oysters"));
+        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:steamed_clams"));
+        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:clam"));
+        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:crab"));
+        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:oyster"));
+        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:shrimp"));
+        tag(ItemTags.FISHES).addOptionalTag(CommonTags.RAW_SEAFOOD);
+
         //fd base to croptopia tags
         tag(CroptopiaTags.BEEF_MUTTON).addOptionalTag(CommonTags.RAW_BEEF);
         tag(CroptopiaTags.BEEF_REPLACEMENTS).addOptionalTag(CommonTags.RAW_BEEF);
@@ -68,7 +80,32 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.RAW_FISHES$FUGU).addOptional(loc("oceansdelight:fugu_slice"));
         tag(CommonTags.RAW_FISHES).addOptionalTags(CommonTags.RAW_FISHES$ELDER_GUARDIAN, CommonTags.RAW_FISHES$FUGU);
         tag(CommonTags.COOKED_FISHES$CALAMARI).addOptional(loc("rusticdelight:cooked_calamari"));
+        tag(CommonTags.COOKED_CALAMARI).addOptional(loc("rusticdelight:cooked_calamari"));
         tag(CommonTags.COOKED_FISHES).addOptionalTag(CommonTags.COOKED_FISHES$CALAMARI);
+
+        //delightful handles compat mostly internally
+
+        //crabber's delight
+        tag(CommonTags.CLAM_MEAT).addOptional(loc("crabbersdelight:cooked_clam_meat"));
+        tag(CommonTags.CLAMS).addOptional(loc("crabbersdelight:clam"));
+        tag(CommonTags.COOKED_CALAMARI).addOptional(loc("crabbersdelight:cooked_squid_tentacles"));
+        tag(CommonTags.COOKED_CALAMARI).addOptional(loc("crabbersdelight:cooked_glow_squid_tentacles"));
+        tag(CommonTags.COOKED_FISHES$FUGU).addOptional(loc("crabbersdelight:cooked_pufferfish_slice"));
+        tag(CommonTags.COOKED_FROG_LEGS).addOptional(loc("crabbersdelight:cooked_frog_leg"));
+        tag(CommonTags.COOKED_LOBSTERS).addOptional(loc("crabbersdelight:cooked_clawster"));
+        tag(CommonTags.COOKED_SEAFOOD).addOptionalTag(loc("crabbersdelight:cooked_seafood"));
+        tag(CommonTags.COOKED_SHRIMP).addOptional(loc("crabbersdelight:cooked_shrimp"));
+        tag(CommonTags.COOKED_TENTACLES).addOptional(loc("crabbersdelight:cooked_squid_tentacles"));
+        tag(CommonTags.COOKED_TENTACLES).addOptional(loc("crabbersdelight:cooked_glow_squid_tentacles"));
+        tag(CommonTags.CRABS).addOptional(loc("crabbersdelight:crab"));
+        tag(CommonTags.RAW_FISHES$FUGU).addOptional(loc("crabbersdelight:pufferfish_slice"));
+        tag(CommonTags.RAW_FROG_LEGS).addOptional(loc("crabbersdelight:raw_frog_leg"));
+        tag(CommonTags.RAW_LOBSTERS).addOptional(loc("crabbersdelight:raw_clawster"));
+        tag(CommonTags.RAW_SEAFOOD).addOptionalTag(loc("crabbersdelight:raw_seafood"));
+        tag(CommonTags.STEAMED_CRABS).addOptional(loc("crabbersdelight:cooked_crab"));
+        tag(CommonTags.SHRIMP).addOptional(loc("crabbersdelight:shrimp"));
+        tag(CommonTags.TENTACLES).addOptional(loc("crabbersdelight:raw_squid_tentacles"));
+        tag(CommonTags.TENTACLES).addOptional(loc("crabbersdelight:raw_glow_squid_tentacles"));
     }
 
     private static ResourceLocation loc(String str) {

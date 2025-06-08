@@ -1,0 +1,28 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "oceansdelight"
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "crabbersdelight:pufferfish_slice"
+    }
+  ],
+  "result": {
+    "item": "oceansdelight:fugu_slice",
+    "count": 3
+  }
+}

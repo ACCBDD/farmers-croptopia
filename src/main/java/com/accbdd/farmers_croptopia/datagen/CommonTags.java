@@ -631,6 +631,19 @@ public class CommonTags {
     public static final TagKey<Item> COOKED_FISHES$ELDER_GUARDIAN = tag("cooked_fishes/elder_guardian");
     public static final TagKey<Item> RAW_FISHES$FUGU = tag("raw_fishes/fugu");
 
+    //delightful mostly handles compat internally, should be okay
+
+    //crabber's delight
+    public static final TagKey<Item> COOKED_FISHES$FUGU = tag("cooked_fishes/fugu");
+    public static final TagKey<Item> CLAM_MEAT = tag("clam_meat");
+    public static final TagKey<Item> COOKED_TENTACLES = tag("cooked_tentacles");
+    public static final TagKey<Item> COOKED_SEAFOOD = tag("cooked_seafood"); //non-fish seafood
+    public static final TagKey<Item> RAW_SEAFOOD = tag("raw_seafood"); //non-fish seafood
+    public static final TagKey<Item> RAW_LOBSTERS = tag("raw_lobsters");
+    public static final TagKey<Item> COOKED_LOBSTERS = tag("cooked_lobsters");
+    public static final TagKey<Item> RAW_FROG_LEGS = tag("raw_frog_legs");
+    public static final TagKey<Item> COOKED_FROG_LEGS = tag("cooked_frog_legs");
+
 
     private static TagKey<Item> tag(String path) {
         return ItemTags.create(new ResourceLocation(COMMON_NAMESPACE, path));

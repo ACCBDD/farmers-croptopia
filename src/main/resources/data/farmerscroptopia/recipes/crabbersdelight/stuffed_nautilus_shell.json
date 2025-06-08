@@ -1,0 +1,32 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "crabbersdelight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "forge:cooked_fishes"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:nautilus_shell"
+    }
+  ],
+  "result": {
+    "item": "crabbersdelight:stuffed_nautilus_shell"
+  }
+}

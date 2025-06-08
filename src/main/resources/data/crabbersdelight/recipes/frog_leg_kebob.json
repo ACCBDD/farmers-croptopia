@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "tag": "forge:cooked_frog_legs"
+    },
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "result": {
+    "item": "crabbersdelight:frog_leg_kebob"
+  }
+}

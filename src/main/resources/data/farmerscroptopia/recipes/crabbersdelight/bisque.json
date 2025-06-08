@@ -1,0 +1,40 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "crabbersdelight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    [
+      {
+        "tag": "forge:cooked_seafood"
+      },
+      {
+        "tag": "forge:raw_seafood"
+      }
+    ],
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "tag": "forge:rice"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "forge:milks"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "crabbersdelight:bisque"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "crabbersdelight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "crabbersdelight:crab"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "crabbersdelight:cooked_crab"
+  }
+}
