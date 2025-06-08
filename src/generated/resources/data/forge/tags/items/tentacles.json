@@ -1,10 +1,6 @@
 {
   "values": [
     {
-      "id": "rusticdelight:calamari",
-      "required": false
-    },
-    {
       "id": "oceansdelight:tentacles",
       "required": false
     },

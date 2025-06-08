@@ -5,11 +5,7 @@
       "required": false
     },
     {
-      "id": "oceansdelight:tentacles",
-      "required": false
-    },
-    {
-      "id": "oceansdelight:cut_tentacles",
+      "id": "rusticdelight:calamari_slice",
       "required": false
     }
   ]

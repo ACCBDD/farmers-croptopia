@@ -1,15 +1,15 @@
 {
   "values": [
     {
-      "id": "rusticdelight:calamari",
+      "id": "#forge:raw_fishes/calamari",
       "required": false
     },
     {
-      "id": "oceansdelight:tentacles",
+      "id": "#forge:raw_fishes/elder_guardian",
       "required": false
     },
     {
-      "id": "oceansdelight:cut_tentacles",
+      "id": "#forge:raw_fishes/fugu",
       "required": false
     }
   ]

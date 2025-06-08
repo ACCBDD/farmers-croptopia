@@ -38,6 +38,13 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.COFFEE_BEANS).addOptional(loc("rusticdelight:roasted_coffee_beans")); //roasted, not raw
         tag(CommonTags.CALAMARI).addOptional(loc("rusticdelight:calamari"));
         tag(CommonTags.COFFEES).addOptional(loc("rusticdelight:coffee"));
+        tag(CommonTags.RAW_FISHES$CALAMARI).addOptional(loc("rusticdelight:calamari"));
+        tag(CommonTags.RAW_FISHES$CALAMARI).addOptional(loc("rusticdelight:calamari_slice"));
+        tag(CommonTags.RAW_FISHES).addOptionalTag(CommonTags.RAW_FISHES$CALAMARI);
+        tag(CommonTags.COOKED_FISHES$CALAMARI).addOptional(loc("rusticdelight:cooked_calamari"));
+        tag(CommonTags.COOKED_FISHES$CALAMARI).addOptional(loc("rusticdelight:cooked_calamari_slice"));
+        tag(CommonTags.COOKED_FISHES).addOptionalTag(CommonTags.COOKED_FISHES$CALAMARI);
+
 
         //nethers delight needs no tags
         //same with enders
@@ -51,10 +58,21 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.PASTA).addOptional(loc("seeddelight:raw_acorn_noodle"));
         tag(CommonTags.CHERRY_JAMS).addOptional(loc("seeddelight:cherry_jam_jar"));
         tag(CommonTags.ROSEHIP_JAMS).addOptional(loc("seeddelight:rosehip_jam_jar"));
+
+        //ocean delight
+        tag(CommonTags.TENTACLES).addOptional(loc("oceansdelight:tentacles"));
+        tag(CommonTags.CALAMARI).addOptional(loc("oceansdelight:tentacles"));
+        tag(CommonTags.TENTACLES).addOptional(loc("oceansdelight:cut_tentacles"));
+        tag(CommonTags.CALAMARI).addOptional(loc("oceansdelight:cut_tentacles"));
+        tag(CommonTags.RAW_FISHES$ELDER_GUARDIAN).addOptional(loc("oceansdelight:elder_guardian_slice"));
+        tag(CommonTags.RAW_FISHES$FUGU).addOptional(loc("oceansdelight:fugu_slice"));
+        tag(CommonTags.RAW_FISHES).addOptionalTags(CommonTags.RAW_FISHES$ELDER_GUARDIAN, CommonTags.RAW_FISHES$FUGU);
+        tag(CommonTags.COOKED_FISHES$CALAMARI).addOptional(loc("rusticdelight:cooked_calamari"));
+        tag(CommonTags.COOKED_FISHES).addOptionalTag(CommonTags.COOKED_FISHES$CALAMARI);
     }
 
     private static ResourceLocation loc(String str) {
-        return new ResourceLocation(str);
+        return ResourceLocation.parse(str);
     }
 
     private static void addToTags(Item item, IntrinsicTagAppender<?>... tags) {

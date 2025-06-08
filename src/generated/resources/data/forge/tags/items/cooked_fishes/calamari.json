@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "rusticdelight:cooked_calamari",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:cooked_calamari_slice",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:cooked_calamari",
+      "required": false
+    }
+  ]
+}
