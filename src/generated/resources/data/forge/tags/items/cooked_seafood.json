@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "croptopia:cooked_shrimp",
+      "required": false
+    },
+    {
+      "id": "croptopia:steamed_crab",
+      "required": false
+    },
+    {
+      "id": "croptopia:grilled_oysters",
+      "required": false
+    },
+    {
+      "id": "croptopia:steamed_clams",
+      "required": false
+    },
+    {
+      "id": "#crabbersdelight:cooked_seafood",
+      "required": false
+    }
+  ]
+}

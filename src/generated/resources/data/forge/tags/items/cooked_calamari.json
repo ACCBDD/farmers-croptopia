@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "rusticdelight:cooked_calamari",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:cooked_squid_tentacles",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:cooked_glow_squid_tentacles",
+      "required": false
+    }
+  ]
+}
