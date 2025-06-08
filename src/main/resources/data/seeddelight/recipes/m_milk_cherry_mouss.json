@@ -5,25 +5,24 @@
       "modid": "seeddelight"
     }
   ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:glass_bottle"
-  },
-  "cookingtime": 200,
-  "experience": 1.0,
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "tag": "forge:fruits/cherry"
     },
     {
-      "tag": "forge:fruits/cherry"
+      "tag": "forge:milk"
     },
     {
       "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
     }
   ],
-  "recipe_book_tab": "meals",
   "result": {
-    "item": "seeddelight:cherry_jam_jar"
+    "item": "seeddelight:milk_cherry_mouss",
+    "count": 1
   }
 }

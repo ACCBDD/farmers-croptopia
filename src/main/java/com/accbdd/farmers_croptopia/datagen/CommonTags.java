@@ -621,6 +621,11 @@ public class CommonTags {
     public static final TagKey<Item> TENTACLES = tag("tentacles");
     public static final TagKey<Item> VEGETABLES$BELLPEPPER = tag("vegetables/bellpepper");
 
+    //seed delight
+    public static final TagKey<Item> NUTS$ACORN = tag("nuts/acorn");
+    public static final TagKey<Item> NUTS$PINE = tag("nuts/pine");
+    public static final TagKey<Item> ROSEHIP_JAMS = tag("rosehip_jams");
+
 
     private static TagKey<Item> tag(String path) {
         return ItemTags.create(new ResourceLocation(COMMON_NAMESPACE, path));

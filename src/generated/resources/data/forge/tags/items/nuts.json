@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#forge:nuts/acorn",
+      "required": false
+    },
+    {
+      "id": "#forge:nuts/pine",
+      "required": false
+    }
+  ]
+}

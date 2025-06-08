@@ -1,4 +1,10 @@
 {
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "seeddelight"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
@@ -6,7 +12,7 @@
       "tag": "forge:bread"
     },
     {
-      "item": "seeddelight:cherry_jam_jar"
+      "tag": "forge:cherry_jams"
     },
     {
       "tag": "forge:bread"

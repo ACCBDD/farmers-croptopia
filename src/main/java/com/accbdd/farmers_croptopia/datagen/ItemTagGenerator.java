@@ -31,8 +31,7 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CroptopiaTags.MEAT_REPLACEMENTS).addOptionalTags(
                 CommonTags.RAW_BEEF,
                 CommonTags.RAW_CHICKEN,
-                CommonTags.RAW_MUTTON
-        );
+                CommonTags.RAW_MUTTON);
 
         //rustic delight
         tag(CommonTags.VEGETABLES).addOptionalTag(CommonTags.VEGETABLES$BELLPEPPER);
@@ -40,6 +39,18 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.CALAMARI).addOptional(loc("rusticdelight:calamari"));
         tag(CommonTags.COFFEES).addOptional(loc("rusticdelight:coffee"));
 
+        //nethers delight needs no tags
+        //same with enders
+
+        //seed delight
+        tag(CommonTags.NUTS).addOptionalTags(
+                CommonTags.NUTS$ACORN,
+                CommonTags.NUTS$PINE);
+        tag(CommonTags.JAMS).addOptionalTag(CommonTags.ROSEHIP_JAMS);
+        tag(CommonTags.FRUITS$CHERRY).addOptional(loc("seeddelight:cherry"));
+        tag(CommonTags.PASTA).addOptional(loc("seeddelight:raw_acorn_noodle"));
+        tag(CommonTags.CHERRY_JAMS).addOptional(loc("seeddelight:cherry_jam_jar"));
+        tag(CommonTags.ROSEHIP_JAMS).addOptional(loc("seeddelight:rosehip_jam_jar"));
     }
 
     private static ResourceLocation loc(String str) {
