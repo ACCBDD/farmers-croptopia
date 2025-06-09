@@ -1,5 +1,6 @@
 import json
 import glob
+import os
 
 plants = [("artichoke", "artichokes"), ("asparagus", "asparagus"), ("barley", "barley"), ("basil", "basil"),
           ("bellpepper", "bellpeppers"), ("blackbean", "blackbeans"), ("blackberry", "blackberries"),
@@ -16,7 +17,7 @@ plants = [("artichoke", "artichokes"), ("asparagus", "asparagus"), ("barley", "b
           ('strawberry', 'strawberry'), ('sweetpotato', 'sweetpotato'), ('tea_leaves', 'tea_leaves'),
           ('tomatillo', 'tomatillo'), ('tomato', 'tomato'), ('turmeric', 'turmeric'), ('turnip', 'turnip'),
           ('vanilla', 'vanilla'), ('yam', 'yam'), ('zucchini', 'zucchini')]
-input_files = glob.glob('input/*', recursive=True)
+input_files = glob.glob('input/**', recursive=True)
 
 # convert croptopia cooking pot recipes to fd pot recipes
 # converted_count = 0
@@ -43,7 +44,6 @@ input_files = glob.glob('input/*', recursive=True)
 #             if {'item': 'croptopia:cooking_pot'} in json_file['key'].values():
 #                 print('cooking recipe ' + file + ' is shaped, needs manual conversion')
 # print('converted ' + str(converted_count) + ' out of ' + str(len(input_files)) + ' input files')
-
 
 
 # create advancements for all recipes
@@ -77,24 +77,44 @@ input_files = glob.glob('input/*', recursive=True)
 #             json.dump(advancement_json, g, ensure_ascii=False, indent=2)
 
 # convert fd cooking recipes to croptopia
+# for file in input_files:
+#     with open(file, 'r') as f:
+#         input_recipe = json.load(f)
+#         converted_recipe = {
+#             "forge:conditions": [
+#                 {
+#                     "type": "forge:mod_loaded",
+#                     "modid": "casualness_delight"
+#                 }
+#             ],
+#             "type": "minecraft:crafting_shapeless",
+#             "ingredients": input_recipe['ingredients'],
+#             "result": input_recipe['result']
+#         }
+#         converted_recipe['ingredients'].insert(0, {"item": "croptopia:cooking_pot"})
+#         if 'container' in input_recipe:
+#             converted_recipe['ingredients'].append(input_recipe['container'])
+#         else:
+#             converted_recipe['ingredients'].append({"item": "minecraft:bowl"})
+#         with open('output/' + file[6:], 'w') as g:
+#             json.dump(converted_recipe, g, ensure_ascii=False, indent=2)
+
+# fix my dumbass mistake
 for file in input_files:
-    with open(file, 'r') as f:
-        input_recipe = json.load(f)
-        converted_recipe = {
-            "forge:conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "casualness_delight"
-                }
-            ],
-            "type": "minecraft:crafting_shapeless",
-            "ingredients": input_recipe['ingredients'],
-            "result": input_recipe['result']
-        }
-        converted_recipe['ingredients'].insert(0, {"item": "croptopia:cooking_pot"})
-        if 'container' in input_recipe:
-            converted_recipe['ingredients'].append(input_recipe['container'])
-        else:
-            converted_recipe['ingredients'].append({"item": "minecraft:bowl"})
-        with open('output/' + file[6:], 'w') as g:
-            json.dump(converted_recipe, g, ensure_ascii=False, indent=2)
+    print(file)
+    if file.endswith('.json'):
+        with open(file, 'r') as f:
+            input_recipe = json.load(f)
+            converted_recipe = {
+                "type": "forge:conditional",
+                "recipes": [
+                    {
+                        "conditions": input_recipe['forge:conditions']
+                    }
+                ]
+            }
+            del input_recipe['forge:conditions']
+            converted_recipe['recipes'][0]['recipe'] = input_recipe
+            os.makedirs(os.path.dirname('output/' + file[6:]), exist_ok=True)
+            with open('output/' + file[6:], 'w') as g:
+                json.dump(converted_recipe, g, ensure_ascii=False, indent=2)
