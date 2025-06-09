@@ -1,11 +1,16 @@
-// 1.20.1	2025-06-08T14:57:49.0104852	Tags for minecraft:item mod id farmers_croptopia
+// 1.20.1	2025-06-09T16:08:38.5850798	Tags for minecraft:item mod id farmers_croptopia
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_mutton.json
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_replacements.json
 66e229f090f37976f4634826a09514f232d06134 data/croptopia/tags/items/chicken_replacements.json
 dd37877308da07869bd77598d8f5a01222f9d58f data/croptopia/tags/items/fishes.json
+2aee72254da4d218e414db129a86a48e16c048e7 data/croptopia/tags/items/flourable.json
 36bc4fa6b787f67c19688688e951bda4a5d56047 data/croptopia/tags/items/meat_replacements.json
 4f8503547faad93bcb1de4a1eeca80555b562e93 data/forge/tags/items/calamari.json
+944c9aa2acc521752710c74570cb023b1f6f7e3d data/forge/tags/items/cheeseburgers.json
+35176f9b7b082ff3815a65f65265d775a253214e data/forge/tags/items/cheese_pizzas.json
 b14512a4614b67738fa31ad0fa5a0fdf02ce963c data/forge/tags/items/cherry_jams.json
+875426589d24380ddddffe065f6bfaf9f2eecdf5 data/forge/tags/items/chile_peppers.json
+6062585c2a691ead91fa2a2709cf76965d64c555 data/forge/tags/items/chilipepper.json
 2456e6fcb47d93e2f3c07daf3c9b7acb77ff65be data/forge/tags/items/clams.json
 10aa8cd5a432f3b2665c6428087b4b28d62764e9 data/forge/tags/items/clam_meat.json
 4d2eddc7e4e5314b4d2cc34809deee53ed92883b data/forge/tags/items/coffees.json
@@ -20,10 +25,18 @@ e23cfa95f8ce0732369545be0d2fae8707ba15c0 data/forge/tags/items/cooked_seafood.js
 f01ba6a4febd5154d7d8deb280fa2810095b5f60 data/forge/tags/items/cooked_shrimp.json
 d798d4f9515e74f19fdf4bc68d2382a4e2493d69 data/forge/tags/items/cooked_tentacles.json
 8be00034bc3942fbb908eb2c52247fa5340aa296 data/forge/tags/items/crabs.json
+af8f03ece84be09212802f3b942e167ba618138b data/forge/tags/items/cucumber_salads.json
+6168e624e58470d7c866441f2696583579b43165 data/forge/tags/items/fish_and_chips.json
 ec051f2240735f3946628a24424560bef6e61162 data/forge/tags/items/fruits/cherry.json
+2aee72254da4d218e414db129a86a48e16c048e7 data/forge/tags/items/grain/oats.json
 12e420f891fb32c3751840e0325e5fdb7a513d1c data/forge/tags/items/jams.json
 61f519fd5426b63fbfdf63391e1bf852a6d3a714 data/forge/tags/items/nuts.json
+2aee72254da4d218e414db129a86a48e16c048e7 data/forge/tags/items/oats.json
 aececd4e255127bf38d05a9688ff0ca9fab37f14 data/forge/tags/items/pasta.json
+c9d5424a0ce318a75b74891dc01d36a7d7264e75 data/forge/tags/items/peanut.json
+6ca73cbb24c1024d018e4067cf53f78ecf7d5032 data/forge/tags/items/peanuts.json
+87ba6332e4980383f37cc3ef184880ca64287d79 data/forge/tags/items/peanut_butter_and_jam.json
+4ac5199046ce48209607b02576b07344f8b9239b data/forge/tags/items/potato_chips.json
 db170b1250ae20653308f1b9e63945d4ac8b5d55 data/forge/tags/items/raw_fishes.json
 9afda1ca31ebec4c60bac6d9930b865c1a72ed68 data/forge/tags/items/raw_fishes/calamari.json
 0ea78521a6bc26af03ee32752e3fc3a4d2a083aa data/forge/tags/items/raw_fishes/elder_guardian.json

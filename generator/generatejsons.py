@@ -84,7 +84,7 @@ for file in input_files:
             "forge:conditions": [
                 {
                     "type": "forge:mod_loaded",
-                    "modid": "crabbersdelight"
+                    "modid": "casualness_delight"
                 }
             ],
             "type": "minecraft:crafting_shapeless",

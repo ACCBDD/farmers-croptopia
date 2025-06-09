@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "croptopia:cabbage"
+    }
+  ],
+  "result": [
+    {
+      "item": "farmersdelight:cabbage_leaf",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

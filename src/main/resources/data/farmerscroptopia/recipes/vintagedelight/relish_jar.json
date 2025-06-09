@@ -1,0 +1,38 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "vintagedelight:pickle"
+    },
+    {
+      "item": "vintagedelight:pickle"
+    },
+    {
+      "item": "vintagedelight:pickle"
+    },
+    {
+      "item": "vintagedelight:pickle"
+    },
+    {
+      "item": "vintagedelight:pickle"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "vintagedelight:mason_jar"
+    }
+  ],
+  "result": {
+    "item": "vintagedelight:relish_mason_jar"
+  }
+}

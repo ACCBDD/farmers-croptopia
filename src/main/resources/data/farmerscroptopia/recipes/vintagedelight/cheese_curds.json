@@ -1,0 +1,30 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "item": "vintagedelight:vinegar_bottle"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "vintagedelight:cheese_curds",
+    "count": 4
+  }
+}

@@ -644,6 +644,10 @@ public class CommonTags {
     public static final TagKey<Item> RAW_FROG_LEGS = tag("raw_frog_legs");
     public static final TagKey<Item> COOKED_FROG_LEGS = tag("cooked_frog_legs");
 
+    //vintage delight
+    public static final TagKey<Item> PEANUT = tag("peanut"); //im lazy oops
+    public static final TagKey<Item> CHILIPEPPER = tag("chilipepper");
+
 
     private static TagKey<Item> tag(String path) {
         return ItemTags.create(new ResourceLocation(COMMON_NAMESPACE, path));

@@ -106,6 +106,25 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.SHRIMP).addOptional(loc("crabbersdelight:shrimp"));
         tag(CommonTags.TENTACLES).addOptional(loc("crabbersdelight:raw_squid_tentacles"));
         tag(CommonTags.TENTACLES).addOptional(loc("crabbersdelight:raw_glow_squid_tentacles"));
+
+        //vintage delight
+        tag(CommonTags.GRAIN$OATS).addOptional(loc("vintagedelight:oat"));
+        tag(CroptopiaTags.FLOURABLE).addOptional(loc("vintagedelight:oat"));
+        tag(CommonTags.OATS).addOptional(loc("vintagedelight:oat"));
+        tag(CommonTags.PEANUTS).addOptional(loc("vintagedelight:peanut"));
+        tag(CommonTags.CHILE_PEPPERS).addOptional(loc("vintagedelight:ghost_pepper"));
+        tag(CommonTags.CHEESE_PIZZAS).addOptional(loc("vintagedelight:cheese_pizza"));
+        tag(CommonTags.CUCUMBER_SALADS).addOptional(loc("vintagedelight:cucumber_salad"));
+        tag(CommonTags.PEANUT_BUTTER_AND_JAM).addOptional(loc("vintagedelight:pb_j"));
+        tag(CommonTags.CHEESEBURGERS).addOptional(loc("vintagedelight:cheese_burger"));
+        tag(CommonTags.PEANUT).addOptionalTag(CommonTags.PEANUTS);
+        tag(CommonTags.CHILIPEPPER).addOptionalTag(CommonTags.CHILE_PEPPERS);
+
+        //casualness delight
+        tag(CommonTags.FISH_AND_CHIPS).addOptional(loc("casualness_delight:fish_and_chips"));
+        tag(CommonTags.POTATO_CHIPS).addOptional(loc("casualness_delight:potato_chip"));
+
+
     }
 
     private static ResourceLocation loc(String str) {

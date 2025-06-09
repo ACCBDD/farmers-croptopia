@@ -2,7 +2,7 @@
   "forge:conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "crabbersdelight"
+      "modid": "casualness_delight"
     }
   ],
   "type": "minecraft:crafting_shapeless",
@@ -11,28 +11,28 @@
       "item": "croptopia:cooking_pot"
     },
     {
-      "tag": "forge:clam_meat"
+      "item": "minecraft:beef"
     },
     {
-      "tag": "forge:cooked_lobsters"
+      "item": "minecraft:beef"
     },
     {
-      "tag": "forge:cooked_shrimp"
+      "tag": "forge:pasta"
     },
     {
-      "item": "minecraft:seagrass"
+      "tag": "forge:vegetables/carrot"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "forge:crops/cabbage"
     },
     {
-      "tag": "forge:onions"
+      "tag": "forge:vegetables/onion"
     },
     {
       "item": "minecraft:bowl"
     }
   ],
   "result": {
-    "item": "crabbersdelight:clam_bake"
+    "item": "casualness_delight:beef_noodles"
   }
 }
