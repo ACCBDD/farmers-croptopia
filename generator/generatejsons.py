@@ -79,9 +79,28 @@ input_files = glob.glob('input/**', recursive=True)
 
 # convert fd cooking recipes to croptopia
 for file in input_files:
+    modid = "oceanic_delight"
     if file.endswith('.json'):
         with open(file, 'r') as f:
             input_recipe = json.load(f)
+            output_cooking_recipe = {
+                "type": "forge:conditional",
+                "recipes": [
+                    {
+                        "conditions": [
+                            {
+                                "type": "forge:mod_loaded",
+                                "modid": modid
+                            }
+                        ],
+                        "recipe": input_recipe
+                    }
+                ]
+            }
+            os.makedirs(os.path.dirname('output/COOKING/' + file[6:]), exist_ok=True)
+            os.makedirs(os.path.dirname('output/SHAPELESS/' + file[6:]), exist_ok=True)
+            with open('output/COOKING/' + file[6:], 'w') as g:
+                json.dump(output_cooking_recipe, g, ensure_ascii=False, indent=2)
             converted_recipe = {
                 "type": "minecraft:crafting_shapeless",
                 "ingredients": input_recipe['ingredients'],
@@ -92,23 +111,24 @@ for file in input_files:
                 converted_recipe['ingredients'].append(input_recipe['container'])
             else:
                 converted_recipe['ingredients'].append({"item": "minecraft:bowl"})
-            output_recipe = {
+            output_shapeless_recipe = {
                 "type": "forge:conditional",
                 "recipes": [
                     {
                         "conditions": [
                             {
                                 "type": "forge:mod_loaded",
-                                "modid": "casualness_delight"
+                                "modid": modid
                             }
                         ],
                         "recipe": converted_recipe
                     }
                 ]
             }
-            os.makedirs(os.path.dirname('output/' + file[6:]), exist_ok=True)
-            with open('output/' + file[6:], 'w') as g:
-                json.dump(output_recipe, g, ensure_ascii=False, indent=2)
+
+
+            with open('output/SHAPELESS/' + file[6:], 'w') as g:
+                json.dump(output_shapeless_recipe, g, ensure_ascii=False, indent=2)
 
 # fix my dumbass mistake
 # for file in input_files:
