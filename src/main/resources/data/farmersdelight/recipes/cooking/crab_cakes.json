@@ -1,26 +1,39 @@
 {
-  "type": "farmersdelight:cooking",
-  "cookingtime": 200,
-  "experience": 2.0,
-  "ingredients": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "tag": "forge:crabs"
-    },
-    {
-      "tag": "forge:dough"
-    },
-    {
-      "tag": "forge:milks"
-    },
-    {
-      "item": "minecraft:egg"
-    },
-    {
-      "tag": "forge:onions"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "cookingtime": 200,
+        "experience": 2.0,
+        "ingredients": [
+          {
+            "tag": "forge:crabs"
+          },
+          {
+            "tag": "forge:dough"
+          },
+          {
+            "tag": "forge:milks"
+          },
+          {
+            "item": "minecraft:egg"
+          },
+          {
+            "tag": "forge:onions"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "crabbersdelight:crab_cakes"
+        }
+      }
     }
-  ],
-  "recipe_book_tab": "meals",
-  "result": {
-    "item": "crabbersdelight:crab_cakes"
-  }
+  ]
 }

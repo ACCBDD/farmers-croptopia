@@ -1,26 +1,33 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "seeddelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "seeddelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "container": {
+          "item": "minecraft:glass_bottle"
+        },
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "tag": "forge:fruits/cherry"
+          },
+          {
+            "tag": "forge:fruits/cherry"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "seeddelight:cherry_wine"
+        }
+      }
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:glass_bottle"
-  },
-  "cookingtime": 200,
-  "experience": 1.0,
-  "ingredients": [
-    {
-      "tag": "forge:fruits/cherry"
-    },
-    {
-      "tag": "forge:fruits/cherry"
-    }
-  ],
-  "recipe_book_tab": "meals",
-  "result": {
-    "item": "seeddelight:cherry_wine"
-  }
+  ]
 }

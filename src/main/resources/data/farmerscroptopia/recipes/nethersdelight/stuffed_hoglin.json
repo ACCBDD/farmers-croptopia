@@ -1,26 +1,33 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "nethersdelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "nethersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "farmersdelight:nether_salad"
+          },
+          {
+            "item": "nethersdelight:raw_stuffed_hoglin"
+          },
+          {
+            "item": "farmersdelight:nether_salad"
+          }
+        ],
+        "result": {
+          "item": "nethersdelight:stuffed_hoglin"
+        }
+      }
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "croptopia:cooking_pot"
-    },
-    {
-      "item": "farmersdelight:nether_salad"
-    },
-    {
-      "item": "nethersdelight:raw_stuffed_hoglin"
-    },
-    {
-      "item": "farmersdelight:nether_salad"
-    }
-  ],
-  "result": {
-    "item": "nethersdelight:stuffed_hoglin"
-  }
+  ]
 }

@@ -1,30 +1,37 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "rusticdelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "rusticdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "rusticdelight:cooking_oil"
+          },
+          {
+            "tag": "forge:dough"
+          },
+          {
+            "tag": "forge:salad_ingredients"
+          },
+          {
+            "tag": "farmersdelight:cabbage_roll_ingredients"
+          }
+        ],
+        "result": {
+          "count": 2,
+          "item": "rusticdelight:spring_rolls"
+        }
+      }
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "croptopia:cooking_pot"
-    },
-    {
-      "tag": "rusticdelight:cooking_oil"
-    },
-    {
-      "tag": "forge:dough"
-    },
-    {
-      "tag": "forge:salad_ingredients"
-    },
-    {
-      "tag": "farmersdelight:cabbage_roll_ingredients"
-    }
-  ],
-  "result": {
-    "count": 2,
-    "item": "rusticdelight:spring_rolls"
-  }
+  ]
 }

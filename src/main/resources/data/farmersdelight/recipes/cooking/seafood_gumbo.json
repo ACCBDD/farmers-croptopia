@@ -1,29 +1,42 @@
 {
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bowl"
-  },
-  "cookingtime": 200,
-  "experience": 1.0,
-  "ingredients": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "tag": "forge:raw_lobsters"
-    },
-    {
-      "tag": "forge:shrimp"
-    },
-    {
-      "tag": "forge:onions"
-    },
-    {
-      "tag": "forge:rice"
-    },
-    {
-      "item": "minecraft:porkchop"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "container": {
+          "item": "minecraft:bowl"
+        },
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "tag": "forge:raw_lobsters"
+          },
+          {
+            "tag": "forge:shrimp"
+          },
+          {
+            "tag": "forge:onions"
+          },
+          {
+            "tag": "forge:rice"
+          },
+          {
+            "item": "minecraft:porkchop"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "crabbersdelight:seafood_gumbo"
+        }
+      }
     }
-  ],
-  "recipe_book_tab": "meals",
-  "result": {
-    "item": "crabbersdelight:seafood_gumbo"
-  }
+  ]
 }

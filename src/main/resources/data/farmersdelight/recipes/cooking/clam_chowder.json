@@ -1,26 +1,39 @@
 {
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bowl"
-  },
-  "cookingtime": 200,
-  "experience": 1.0,
-  "ingredients": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "tag": "forge:cooked_clam_meat"
-    },
-    {
-      "tag": "forge:onions"
-    },
-    {
-      "item": "minecraft:potato"
-    },
-    {
-      "tag": "forge:milks"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "container": {
+          "item": "minecraft:bowl"
+        },
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "tag": "forge:cooked_clam_meat"
+          },
+          {
+            "tag": "forge:onions"
+          },
+          {
+            "item": "minecraft:potato"
+          },
+          {
+            "tag": "forge:milks"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "crabbersdelight:clam_chowder"
+        }
+      }
     }
-  ],
-  "recipe_book_tab": "meals",
-  "result": {
-    "item": "crabbersdelight:clam_chowder"
-  }
+  ]
 }

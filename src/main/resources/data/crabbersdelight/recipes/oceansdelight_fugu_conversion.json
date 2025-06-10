@@ -1,28 +1,35 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:and",
-      "values": [
+      "conditions": [
         {
-          "type": "forge:mod_loaded",
-          "modid": "crabbersdelight"
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "oceansdelight"
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "forge:mod_loaded",
+              "modid": "crabbersdelight"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "oceansdelight"
+            }
+          ]
         }
-      ]
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "crabbersdelight:pufferfish_slice"
+          }
+        ],
+        "result": {
+          "item": "oceansdelight:fugu_slice",
+          "count": 3
+        }
+      }
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "crabbersdelight:pufferfish_slice"
-    }
-  ],
-  "result": {
-    "item": "oceansdelight:fugu_slice",
-    "count": 3
-  }
+  ]
 }

@@ -1,29 +1,36 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "seeddelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "seeddelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "container": {
+          "item": "minecraft:bowl"
+        },
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "item": "minecraft:porkchop"
+          },
+          {
+            "tag": "forge:fruits/cherry"
+          },
+          {
+            "tag": "forge:vegetables/onion"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "seeddelight:cherry_pork"
+        }
+      }
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bowl"
-  },
-  "cookingtime": 200,
-  "experience": 1.0,
-  "ingredients": [
-    {
-      "item": "minecraft:porkchop"
-    },
-    {
-      "tag": "forge:fruits/cherry"
-    },
-    {
-      "tag": "forge:vegetables/onion"
-    }
-  ],
-  "recipe_book_tab": "meals",
-  "result": {
-    "item": "seeddelight:cherry_pork"
-  }
+  ]
 }

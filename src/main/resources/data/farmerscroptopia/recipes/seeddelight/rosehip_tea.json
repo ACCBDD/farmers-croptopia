@@ -1,26 +1,33 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "seeddelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "seeddelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "seeddelight:rosehip"
+          },
+          {
+            "item": "seeddelight:rosehip"
+          },
+          {
+            "item": "minecraft:glass_bottle"
+          }
+        ],
+        "result": {
+          "item": "seeddelight:rosehip_tea"
+        }
+      }
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "croptopia:cooking_pot"
-    },
-    {
-      "item": "seeddelight:rosehip"
-    },
-    {
-      "item": "seeddelight:rosehip"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
-  ],
-  "result": {
-    "item": "seeddelight:rosehip_tea"
-  }
+  ]
 }

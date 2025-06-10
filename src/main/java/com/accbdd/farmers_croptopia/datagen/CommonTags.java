@@ -45,6 +45,7 @@ public class CommonTags {
     public static final TagKey<Item> RAW_PORK = tag("raw_pork");
     public static final TagKey<Item> SALAD_INGREDIENTS = tag("salad_ingredients");
     public static final TagKey<Item> SALAD_INGREDIENTS$CABBAGE = tag("salad_ingredients/cabbage");
+    public static final TagKey<Item> SALAD_INGREDIENTS$LETTUCE = tag("salad_ingredients/lettuce");
 
     //croptopia base
     public static final TagKey<Item> ALMOND_BRITTLES = tag("almond_brittles");
@@ -318,6 +319,7 @@ public class CommonTags {
     public static final TagKey<Item> RASPBERRIES = tag("raspberries");
     public static final TagKey<Item> RASPBERRY_JAMS = tag("raspberry_jams");
     public static final TagKey<Item> RASPBERRY_SEEDS = tag("raspberry_seeds");
+    public static final TagKey<Item> RATATOUILLE = tag("ratatouille");
     public static final TagKey<Item> RAVIOLI = tag("ravioli");
     public static final TagKey<Item> RHUBARB = tag("rhubarb");
     public static final TagKey<Item> RHUBARB_PIES = tag("rhubarb_pies");

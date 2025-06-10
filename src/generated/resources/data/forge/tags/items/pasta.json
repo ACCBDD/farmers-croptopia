@@ -1,5 +1,6 @@
 {
   "values": [
+    "#forge:pasta/raw_pasta",
     {
       "id": "seeddelight:raw_acorn_noodle",
       "required": false

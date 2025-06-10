@@ -1,13 +1,16 @@
 package com.accbdd.farmers_croptopia.datagen;
 
+import com.epherical.croptopia.register.Content;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -33,6 +36,47 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:oyster"));
         tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:shrimp"));
         tag(ItemTags.FISHES).addOptionalTag(CommonTags.RAW_SEAFOOD);
+        tag(CommonTags.PASTA$RAW_PASTA).addOptional(loc("croptopia:noodle"));
+        tag(CommonTags.BERRIES).add(Content.BLACKBERRY.asItem(),
+                Content.BLUEBERRY.asItem(),
+                Content.CRANBERRY.asItem(),
+                Content.CURRANT.asItem(),
+                Content.ELDERBERRY.asItem(),
+                Content.GRAPE.asItem(),
+                Content.RASPBERRY.asItem(),
+                Content.STRAWBERRY.asItem(),
+                Content.RASPBERRY.asItem());
+        tag(CommonTags.COOKED_EGGS).add(Content.SUNNY_SIDE_EGGS, Content.SCRAMBLED_EGGS);
+        tag(CommonTags.COOKED_FISHES$COD).add(Items.COOKED_COD);
+        tag(CommonTags.COOKED_FISHES$SALMON).add(Items.COOKED_SALMON);
+        tag(CommonTags.COOKED_FISHES).addTags(CommonTags.COOKED_FISHES$COD, CommonTags.COOKED_FISHES$SALMON);
+        tag(CommonTags.COOKED_FISHES).add(Content.COOKED_CALAMARI.asItem(), Content.COOKED_ANCHOVY.asItem(), Content.COOKED_SHRIMP.asItem(), Content.COOKED_TUNA.asItem());
+        tag(CommonTags.DOUGH).add(ModItems.WHEAT_DOUGH.get(), Content.DOUGH);
+        tag(CommonTags.DOUGHS).addTag(CommonTags.DOUGH);
+        tag(CommonTags.MILK).add(Items.MILK_BUCKET, Content.SOY_MILK, Content.MILK_BOTTLE, ModItems.MILK_BOTTLE.get());
+        tag(CommonTags.MILKS).addTag(CommonTags.MILK);
+        tag(CommonTags.PASTA).addTag(CommonTags.PASTA$RAW_PASTA);
+        tag(CommonTags.PUMPKIN_SOUPS).add(ModItems.PUMPKIN_SOUP.get());
+        tag(CommonTags.RATATOUILLE).add(Content.RATATOUILLE.asItem(), ModItems.RATATOUILLE.get());
+        tag(CommonTags.RAW_BACON).add(Content.RAW_BACON, ModItems.BACON.get());
+        tag(CommonTags.RAW_FISHES$COD).add(Items.COD);
+        tag(CommonTags.RAW_FISHES$SALMON).add(Items.SALMON);
+        tag(CommonTags.RAW_FISHES$TROPICAL_FISH).add(Items.TROPICAL_FISH);
+        tag(CommonTags.RAW_FISHES).addTags(CommonTags.RAW_FISHES$COD, CommonTags.RAW_FISHES$SALMON, CommonTags.RAW_FISHES$TROPICAL_FISH, CroptopiaTags.FISHES);
+        tag(CommonTags.RAW_FISHES).add(Content.ANCHOVY.asItem(),
+                Content.CALAMARI.asItem(),
+                Content.GLOWING_CALAMARI.asItem(),
+                Content.CLAM.asItem(),
+                Content.CRAB.asItem(),
+                Content.OYSTER.asItem(),
+                Content.SHRIMP.asItem(),
+                Content.TUNA.asItem());
+        tag(CommonTags.RAW_MUTTON).add(Items.MUTTON, ModItems.MUTTON_CHOPS.get());
+        tag(CommonTags.RAW_PORK).add(Items.PORKCHOP, ModItems.BACON.get());
+        tag(CommonTags.SALAD_INGREDIENTS$CABBAGE).addOptionalTag(CommonTags.CABBAGE);
+        tag(CommonTags.SALAD_INGREDIENTS$LETTUCE).addOptionalTag(CommonTags.LETTUCE);
+        tag(CommonTags.SALAD_INGREDIENTS).addOptionalTags(CommonTags.SALAD_INGREDIENTS$CABBAGE, CommonTags.SALAD_INGREDIENTS$LETTUCE);
+        tag(CommonTags.SHEPHERDS_PIE).add(ModItems.SHEPHERDS_PIE.get());
 
         //fd base to croptopia tags
         tag(CroptopiaTags.BEEF_MUTTON).addOptionalTag(CommonTags.RAW_BEEF);
@@ -47,6 +91,7 @@ public class ItemTagGenerator extends ItemTagsProvider {
 
         //rustic delight
         tag(CommonTags.VEGETABLES).addOptionalTag(CommonTags.VEGETABLES$BELLPEPPER);
+        tag(CommonTags.BELLPEPPERS).addOptionalTag(CommonTags.VEGETABLES$BELLPEPPER);
         tag(CommonTags.COFFEE_BEANS).addOptional(loc("rusticdelight:roasted_coffee_beans")); //roasted, not raw
         tag(CommonTags.CALAMARI).addOptional(loc("rusticdelight:calamari"));
         tag(CommonTags.COFFEES).addOptional(loc("rusticdelight:coffee"));
@@ -65,11 +110,15 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.NUTS).addOptionalTags(
                 CommonTags.NUTS$ACORN,
                 CommonTags.NUTS$PINE);
+        tag(CommonTags.NUTS$ACORN).addOptional(loc("seeddelight:acorn"));
+        tag(CommonTags.NUTS$PINE).addOptional(loc("seeddelight:pinecone"));
         tag(CommonTags.JAMS).addOptionalTag(CommonTags.ROSEHIP_JAMS);
         tag(CommonTags.FRUITS$CHERRY).addOptional(loc("seeddelight:cherry"));
         tag(CommonTags.PASTA).addOptional(loc("seeddelight:raw_acorn_noodle"));
         tag(CommonTags.CHERRY_JAMS).addOptional(loc("seeddelight:cherry_jam_jar"));
         tag(CommonTags.ROSEHIP_JAMS).addOptional(loc("seeddelight:rosehip_jam_jar"));
+        tag(CommonTags.TOASTS).addOptional(loc("seeddelight:sunflower_seed_toast"));
+        tag(CommonTags.TOFU).addOptional(loc("seeddelight:acorn_tofu"));
 
         //ocean delight
         tag(CommonTags.TENTACLES).addOptional(loc("oceansdelight:tentacles"));

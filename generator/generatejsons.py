@@ -17,8 +17,9 @@ plants = [("artichoke", "artichokes"), ("asparagus", "asparagus"), ("barley", "b
           ('strawberry', 'strawberry'), ('sweetpotato', 'sweetpotato'), ('tea_leaves', 'tea_leaves'),
           ('tomatillo', 'tomatillo'), ('tomato', 'tomato'), ('turmeric', 'turmeric'), ('turnip', 'turnip'),
           ('vanilla', 'vanilla'), ('yam', 'yam'), ('zucchini', 'zucchini')]
+os.makedirs(os.path.dirname('output/'), exist_ok=True)
+os.makedirs(os.path.dirname('input/'), exist_ok=True)
 input_files = glob.glob('input/**', recursive=True)
-
 # convert croptopia cooking pot recipes to fd pot recipes
 # converted_count = 0
 # for file in input_files:

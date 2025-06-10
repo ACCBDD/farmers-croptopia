@@ -1,25 +1,32 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "seeddelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "seeddelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "tag": "forge:bread"
+          },
+          {
+            "tag": "forge:cherry_jams"
+          },
+          {
+            "tag": "forge:bread"
+          }
+        ],
+        "result": {
+          "item": "seeddelight:cherry_jam_sandwich",
+          "count": 2
+        }
+      }
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "tag": "forge:bread"
-    },
-    {
-      "tag": "forge:cherry_jams"
-    },
-    {
-      "tag": "forge:bread"
-    }
-  ],
-  "result": {
-    "item": "seeddelight:cherry_jam_sandwich",
-    "count": 2
-  }
+  ]
 }

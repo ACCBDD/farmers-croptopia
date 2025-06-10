@@ -1,14 +1,27 @@
 {
-  "type": "farmersdelight:cooking",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredients": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "item": "crabbersdelight:shrimp"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "cookingtime": 200,
+        "experience": 0.35,
+        "ingredients": [
+          {
+            "item": "crabbersdelight:shrimp"
+          }
+        ],
+        "recipe_book_tab": "misc",
+        "result": {
+          "item": "crabbersdelight:cooked_shrimp"
+        }
+      }
     }
-  ],
-  "recipe_book_tab": "misc",
-  "result": {
-    "item": "crabbersdelight:cooked_shrimp"
-  }
+  ]
 }

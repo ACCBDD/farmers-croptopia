@@ -1,5 +1,11 @@
 {
   "values": [
+    "#forge:cooked_fishes/cod",
+    "#forge:cooked_fishes/salmon",
+    "croptopia:cooked_calamari",
+    "croptopia:cooked_anchovy",
+    "croptopia:cooked_shrimp",
+    "croptopia:cooked_tuna",
     {
       "id": "#forge:cooked_fishes/calamari",
       "required": false

@@ -1,24 +1,31 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "crabbersdelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "tag": "forge:cooked_seafood"
+          },
+          {
+            "item": "minecraft:baked_potato"
+          },
+          {
+            "item": "minecraft:cooked_beef"
+          }
+        ],
+        "result": {
+          "item": "crabbersdelight:surf_and_turf"
+        }
+      }
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "tag": "forge:cooked_seafood"
-    },
-    {
-      "item": "minecraft:baked_potato"
-    },
-    {
-      "item": "minecraft:cooked_beef"
-    }
-  ],
-  "result": {
-    "item": "crabbersdelight:surf_and_turf"
-  }
+  ]
 }

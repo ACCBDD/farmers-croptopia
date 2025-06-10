@@ -1,35 +1,42 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "vintagedelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "vintagedelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "vintagedelight:ghost_pepper"
+          },
+          {
+            "item": "vintagedelight:ghost_pepper"
+          },
+          {
+            "item": "minecraft:carrot"
+          },
+          {
+            "tag": "forge:tomatoes"
+          },
+          {
+            "item": "farmersdelight:minced_beef"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "vintagedelight:ghostly_chili"
+        }
+      }
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "croptopia:cooking_pot"
-    },
-    {
-      "item": "vintagedelight:ghost_pepper"
-    },
-    {
-      "item": "vintagedelight:ghost_pepper"
-    },
-    {
-      "item": "minecraft:carrot"
-    },
-    {
-      "tag": "forge:tomatoes"
-    },
-    {
-      "item": "farmersdelight:minced_beef"
-    },
-    {
-      "item": "minecraft:bowl"
-    }
-  ],
-  "result": {
-    "item": "vintagedelight:ghostly_chili"
-  }
+  ]
 }

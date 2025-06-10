@@ -1,32 +1,39 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "rusticdelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "rusticdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "rusticdelight:cooking_oil"
+          },
+          {
+            "item": "rusticdelight:batter"
+          },
+          {
+            "tag": "forge:raw_chicken"
+          },
+          {
+            "tag": "forge:vegetables/onion"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "rusticdelight:fried_chicken"
+        }
+      }
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "croptopia:cooking_pot"
-    },
-    {
-      "tag": "rusticdelight:cooking_oil"
-    },
-    {
-      "item": "rusticdelight:batter"
-    },
-    {
-      "tag": "forge:raw_chicken"
-    },
-    {
-      "tag": "forge:vegetables/onion"
-    },
-    {
-      "item": "minecraft:bowl"
-    }
-  ],
-  "result": {
-    "item": "rusticdelight:fried_chicken"
-  }
+  ]
 }

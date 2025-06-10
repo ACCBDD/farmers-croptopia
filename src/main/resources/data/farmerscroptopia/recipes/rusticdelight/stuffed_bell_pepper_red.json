@@ -1,32 +1,39 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "rusticdelight"
-    }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "croptopia:cooking_pot"
-    },
-    {
-      "item": "rusticdelight:bell_pepper_red"
-    },
-    {
-      "tag": "forge:grain/rice"
-    },
-    {
-      "type": "forge:difference",
-      "base": {
-        "tag": "farmersdelight:cabbage_roll_ingredients"
-      },
-      "subtracted": {
-        "tag": "forge:vegetables/bell_pepper"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "rusticdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "rusticdelight:bell_pepper_red"
+          },
+          {
+            "tag": "forge:grain/rice"
+          },
+          {
+            "type": "forge:difference",
+            "base": {
+              "tag": "farmersdelight:cabbage_roll_ingredients"
+            },
+            "subtracted": {
+              "tag": "forge:vegetables/bell_pepper"
+            }
+          }
+        ],
+        "result": {
+          "item": "rusticdelight:stuffed_bell_pepper_red"
+        }
       }
     }
-  ],
-  "result": {
-    "item": "rusticdelight:stuffed_bell_pepper_red"
-  }
+  ]
 }

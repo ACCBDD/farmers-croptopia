@@ -1,29 +1,36 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "seeddelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "seeddelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "minecraft:porkchop"
+          },
+          {
+            "tag": "forge:fruits/cherry"
+          },
+          {
+            "tag": "forge:vegetables/onion"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "seeddelight:cherry_pork"
+        }
+      }
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "croptopia:cooking_pot"
-    },
-    {
-      "item": "minecraft:porkchop"
-    },
-    {
-      "tag": "forge:fruits/cherry"
-    },
-    {
-      "tag": "forge:vegetables/onion"
-    },
-    {
-      "item": "minecraft:bowl"
-    }
-  ],
-  "result": {
-    "item": "seeddelight:cherry_pork"
-  }
+  ]
 }

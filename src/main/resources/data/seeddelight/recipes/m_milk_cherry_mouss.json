@@ -1,28 +1,35 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "seeddelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "seeddelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "tag": "forge:fruits/cherry"
+          },
+          {
+            "tag": "forge:milk"
+          },
+          {
+            "item": "minecraft:sugar"
+          },
+          {
+            "item": "minecraft:egg"
+          }
+        ],
+        "result": {
+          "item": "seeddelight:milk_cherry_mouss",
+          "count": 1
+        }
+      }
     }
-  ],
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "tag": "forge:fruits/cherry"
-    },
-    {
-      "tag": "forge:milk"
-    },
-    {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "minecraft:egg"
-    }
-  ],
-  "result": {
-    "item": "seeddelight:milk_cherry_mouss",
-    "count": 1
-  }
+  ]
 }

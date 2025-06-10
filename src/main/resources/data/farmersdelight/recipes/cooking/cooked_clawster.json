@@ -1,14 +1,27 @@
 {
-  "type": "farmersdelight:cooking",
-  "cookingtime": 200,
-  "experience": 0.35,
-  "ingredients": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "item": "crabbersdelight:clawster"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "cookingtime": 200,
+        "experience": 0.35,
+        "ingredients": [
+          {
+            "item": "crabbersdelight:clawster"
+          }
+        ],
+        "recipe_book_tab": "misc",
+        "result": {
+          "item": "crabbersdelight:cooked_clawster"
+        }
+      }
     }
-  ],
-  "recipe_book_tab": "misc",
-  "result": {
-    "item": "crabbersdelight:cooked_clawster"
-  }
+  ]
 }

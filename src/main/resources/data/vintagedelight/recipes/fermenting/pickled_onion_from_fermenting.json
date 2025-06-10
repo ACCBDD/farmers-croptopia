@@ -1,16 +1,41 @@
 {
-  "type": "vintagedelight:fermenting",
-  "processingTime": 2400,
-  "ingredients": [
-    {"tag": "forge:onions"},
-    {"tag": "forge:onions"},
-    {"tag": "forge:onions"},
-    {"tag": "forge:onions"},
-    {"tag": "forge:onions"},
-    {"tag": "forge:salt"}
-  ],
-  "output": {
-    "count": 5,
-    "item": "vintagedelight:pickled_onion"
-  }
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "vintagedelight"
+        }
+      ],
+      "recipe": {
+        "type": "vintagedelight:fermenting",
+        "processingTime": 2400,
+        "ingredients": [
+          {
+            "tag": "forge:onions"
+          },
+          {
+            "tag": "forge:onions"
+          },
+          {
+            "tag": "forge:onions"
+          },
+          {
+            "tag": "forge:onions"
+          },
+          {
+            "tag": "forge:onions"
+          },
+          {
+            "tag": "forge:salt"
+          }
+        ],
+        "output": {
+          "count": 5,
+          "item": "vintagedelight:pickled_onion"
+        }
+      }
+    }
+  ]
 }

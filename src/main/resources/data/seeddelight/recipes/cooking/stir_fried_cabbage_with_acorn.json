@@ -1,29 +1,36 @@
 {
-  "forge:conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "seeddelight"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "seeddelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "container": {
+          "item": "minecraft:bowl"
+        },
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "tag": "forge:cabbage"
+          },
+          {
+            "tag": "forge:nuts/acorn"
+          },
+          {
+            "item": "seeddelight:acorn"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "seeddelight:stir_fried_cabbage_with_acorn"
+        }
+      }
     }
-  ],
-  "type": "farmersdelight:cooking",
-  "container": {
-    "item": "minecraft:bowl"
-  },
-  "cookingtime": 200,
-  "experience": 1.0,
-  "ingredients": [
-    {
-      "tag": "forge:cabbage"
-    },
-    {
-      "tag": "forge:nuts/acorn"
-    },
-    {
-      "item": "seeddelight:acorn"
-    }
-  ],
-  "recipe_book_tab": "meals",
-  "result": {
-    "item": "seeddelight:stir_fried_cabbage_with_acorn"
-  }
+  ]
 }

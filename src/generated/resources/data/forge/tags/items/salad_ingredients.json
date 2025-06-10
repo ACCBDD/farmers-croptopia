@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#forge:salad_ingredients/cabbage",
+      "required": false
+    },
+    {
+      "id": "#forge:salad_ingredients/lettuce",
+      "required": false
+    }
+  ]
+}
