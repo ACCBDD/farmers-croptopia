@@ -78,44 +78,53 @@ input_files = glob.glob('input/**', recursive=True)
 #             json.dump(advancement_json, g, ensure_ascii=False, indent=2)
 
 # convert fd cooking recipes to croptopia
-# for file in input_files:
-#     with open(file, 'r') as f:
-#         input_recipe = json.load(f)
-#         converted_recipe = {
-#             "forge:conditions": [
-#                 {
-#                     "type": "forge:mod_loaded",
-#                     "modid": "casualness_delight"
-#                 }
-#             ],
-#             "type": "minecraft:crafting_shapeless",
-#             "ingredients": input_recipe['ingredients'],
-#             "result": input_recipe['result']
-#         }
-#         converted_recipe['ingredients'].insert(0, {"item": "croptopia:cooking_pot"})
-#         if 'container' in input_recipe:
-#             converted_recipe['ingredients'].append(input_recipe['container'])
-#         else:
-#             converted_recipe['ingredients'].append({"item": "minecraft:bowl"})
-#         with open('output/' + file[6:], 'w') as g:
-#             json.dump(converted_recipe, g, ensure_ascii=False, indent=2)
-
-# fix my dumbass mistake
 for file in input_files:
-    print(file)
     if file.endswith('.json'):
         with open(file, 'r') as f:
             input_recipe = json.load(f)
             converted_recipe = {
+                "type": "minecraft:crafting_shapeless",
+                "ingredients": input_recipe['ingredients'],
+                "result": input_recipe['result']
+            }
+            converted_recipe['ingredients'].insert(0, {"item": "croptopia:cooking_pot"})
+            if 'container' in input_recipe:
+                converted_recipe['ingredients'].append(input_recipe['container'])
+            else:
+                converted_recipe['ingredients'].append({"item": "minecraft:bowl"})
+            output_recipe = {
                 "type": "forge:conditional",
                 "recipes": [
                     {
-                        "conditions": input_recipe['forge:conditions']
+                        "conditions": [
+                            {
+                                "type": "forge:mod_loaded",
+                                "modid": "casualness_delight"
+                            }
+                        ],
+                        "recipe": converted_recipe
                     }
                 ]
             }
-            del input_recipe['forge:conditions']
-            converted_recipe['recipes'][0]['recipe'] = input_recipe
             os.makedirs(os.path.dirname('output/' + file[6:]), exist_ok=True)
             with open('output/' + file[6:], 'w') as g:
-                json.dump(converted_recipe, g, ensure_ascii=False, indent=2)
+                json.dump(output_recipe, g, ensure_ascii=False, indent=2)
+
+# fix my dumbass mistake
+# for file in input_files:
+#     if file.endswith('.json'):
+#         with open(file, 'r') as f:
+#             input_recipe = json.load(f)
+#             converted_recipe = {
+#                 "type": "forge:conditional",
+#                 "recipes": [
+#                     {
+#                         "conditions": input_recipe['forge:conditions']
+#                     }
+#                 ]
+#             }
+#             del input_recipe['forge:conditions']
+#             converted_recipe['recipes'][0]['recipe'] = input_recipe
+#             os.makedirs(os.path.dirname('output/' + file[6:]), exist_ok=True)
+#             with open('output/' + file[6:], 'w') as g:
+#                 json.dump(converted_recipe, g, ensure_ascii=False, indent=2)
