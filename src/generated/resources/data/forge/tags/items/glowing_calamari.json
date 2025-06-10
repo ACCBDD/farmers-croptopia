@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "crabbersdelight:raw_glow_squid_tentacles",
+      "required": false
+    },
+    {
+      "id": "oceanic_delight:glow_squid_tentacles",
+      "required": false
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-09T17:21:18.4056595	Tags for minecraft:item mod id farmers_croptopia
+// 1.20.1	2025-06-09T18:28:49.4894789	Tags for minecraft:item mod id farmers_croptopia
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_mutton.json
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_replacements.json
 66e229f090f37976f4634826a09514f232d06134 data/croptopia/tags/items/chicken_replacements.json
@@ -8,7 +8,7 @@ dd37877308da07869bd77598d8f5a01222f9d58f data/croptopia/tags/items/fishes.json
 db8049c479ef7499c63f538d9bd663618dcccf0f data/forge/tags/items/bellpeppers.json
 fc02996b2d1515d0e3126035377777f1a94a0c6a data/forge/tags/items/berries.json
 4f8503547faad93bcb1de4a1eeca80555b562e93 data/forge/tags/items/calamari.json
-944c9aa2acc521752710c74570cb023b1f6f7e3d data/forge/tags/items/cheeseburgers.json
+f81a4e57890aa947d0ae13777125b9736041b339 data/forge/tags/items/cheeseburgers.json
 35176f9b7b082ff3815a65f65265d775a253214e data/forge/tags/items/cheese_pizzas.json
 b14512a4614b67738fa31ad0fa5a0fdf02ce963c data/forge/tags/items/cherry_jams.json
 875426589d24380ddddffe065f6bfaf9f2eecdf5 data/forge/tags/items/chile_peppers.json
@@ -28,13 +28,15 @@ fb96e2053761993d0c5581de9f530d54e27111e3 data/forge/tags/items/cooked_frog_legs.
 571b6b7f7e87d7bbba26cbfbac09e6cd818bfb35 data/forge/tags/items/cooked_lobsters.json
 e23cfa95f8ce0732369545be0d2fae8707ba15c0 data/forge/tags/items/cooked_seafood.json
 f01ba6a4febd5154d7d8deb280fa2810095b5f60 data/forge/tags/items/cooked_shrimp.json
-d798d4f9515e74f19fdf4bc68d2382a4e2493d69 data/forge/tags/items/cooked_tentacles.json
+821cc71b55d2591976263a7c9a4a10f2d47816c6 data/forge/tags/items/cooked_tentacles.json
 8be00034bc3942fbb908eb2c52247fa5340aa296 data/forge/tags/items/crabs.json
 af8f03ece84be09212802f3b942e167ba618138b data/forge/tags/items/cucumber_salads.json
+35bbdb906431a03e927d6fe0819f9d0c450e7305 data/forge/tags/items/deep_fried_shrimp.json
 a7d6d6b563dd5688daa490cac6d66af3c38dd7b0 data/forge/tags/items/dough.json
 01571bbc1ab0ca96d09c3b134119477c860291f6 data/forge/tags/items/doughs.json
 6168e624e58470d7c866441f2696583579b43165 data/forge/tags/items/fish_and_chips.json
 ec051f2240735f3946628a24424560bef6e61162 data/forge/tags/items/fruits/cherry.json
+07dc79358fa9fe28f6752aff84bf58de440a9e21 data/forge/tags/items/glowing_calamari.json
 2aee72254da4d218e414db129a86a48e16c048e7 data/forge/tags/items/grain/oats.json
 12e420f891fb32c3751840e0325e5fdb7a513d1c data/forge/tags/items/jams.json
 72c53bff12db1d1cee761bb3f3a5c072820847b1 data/forge/tags/items/milk.json
@@ -69,10 +71,11 @@ b206584df4c071b1810f7dec4b1d0ff984f1084a data/forge/tags/items/salad_ingredients
 8a594d82c2cbba1e935ca0edcd3523c94fecda22 data/forge/tags/items/salad_ingredients/cabbage.json
 de7baae3997db1b1f518f36ead5912de07ed2c06 data/forge/tags/items/salad_ingredients/lettuce.json
 076d9bc50f395758f8a5a93b5b02938d4684c6a7 data/forge/tags/items/shepherds_pie.json
-47dace576eaf9965ef2435d7590cdfb48dd43067 data/forge/tags/items/shrimp.json
+7a456f85d95a6b9c67dc8beabe87566d83ec9a1a data/forge/tags/items/shrimp.json
+1d100a59f9d4521b3cb0b607c0d4f0130feda0b8 data/forge/tags/items/sliced_potato.json
 3ad83477875b5877dfa420e18a6667735a239b44 data/forge/tags/items/steamed_crabs.json
 f8d873af604cbc003fe9d7e5aea41a563a99281b data/forge/tags/items/tentacles.json
-88e022e767617aec3ad3751cd2670ebd8b69f9bf data/forge/tags/items/toasts.json
+9c58e3776522b6af6dfdae459bca3d198cea1db8 data/forge/tags/items/toasts.json
 5cf2212033f4ffa49bb20b31b258935b4609619d data/forge/tags/items/tofu.json
 db8049c479ef7499c63f538d9bd663618dcccf0f data/forge/tags/items/vegetables.json
 486f755bf44718734b1a7541d2c953536665b794 data/minecraft/tags/items/fishes.json

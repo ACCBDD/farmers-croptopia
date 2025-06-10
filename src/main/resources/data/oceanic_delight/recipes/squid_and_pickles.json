@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cooked_calamari"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "tag": "forge:sea_pickles"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "oceanic_delight:squid_and_pickles",
+    "count": 1
+  }
+}

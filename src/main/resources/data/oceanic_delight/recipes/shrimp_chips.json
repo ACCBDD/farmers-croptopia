@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "oceanic_delight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "cookingtime": 100,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "tag": "forge:shrimp"
+          },
+          {
+            "tag": "forge:shrimp"
+          },
+          {
+            "tag": "forge:dough"
+          },
+          {
+            "item": "minecraft:sunflower"
+          }
+        ],
+        "recipe_book_tab": "misc",
+        "result": {
+          "count": 4,
+          "item": "oceanic_delight:shrimp_chips"
+        }
+      }
+    }
+  ]
+}

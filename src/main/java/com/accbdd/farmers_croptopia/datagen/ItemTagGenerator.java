@@ -26,17 +26,6 @@ public class ItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        //croptopia to new tags
-        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:cooked_shrimp"));
-        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:steamed_crab"));
-        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:grilled_oysters"));
-        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:steamed_clams"));
-        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:clam"));
-        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:crab"));
-        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:oyster"));
-        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:shrimp"));
-        tag(ItemTags.FISHES).addOptionalTag(CommonTags.RAW_SEAFOOD);
-        tag(CommonTags.PASTA$RAW_PASTA).addOptional(loc("croptopia:noodle"));
         tag(CommonTags.BERRIES).add(Content.BLACKBERRY.asItem(),
                 Content.BLUEBERRY.asItem(),
                 Content.CRANBERRY.asItem(),
@@ -47,21 +36,24 @@ public class ItemTagGenerator extends ItemTagsProvider {
                 Content.STRAWBERRY.asItem(),
                 Content.RASPBERRY.asItem());
         tag(CommonTags.COOKED_EGGS).add(Content.SUNNY_SIDE_EGGS, Content.SCRAMBLED_EGGS);
-        tag(CommonTags.COOKED_FISHES$COD).add(Items.COOKED_COD);
-        tag(CommonTags.COOKED_FISHES$SALMON).add(Items.COOKED_SALMON);
         tag(CommonTags.COOKED_FISHES).addTags(CommonTags.COOKED_FISHES$COD, CommonTags.COOKED_FISHES$SALMON);
         tag(CommonTags.COOKED_FISHES).add(Content.COOKED_CALAMARI.asItem(), Content.COOKED_ANCHOVY.asItem(), Content.COOKED_SHRIMP.asItem(), Content.COOKED_TUNA.asItem());
+        tag(CommonTags.COOKED_FISHES$COD).add(Items.COOKED_COD);
+        tag(CommonTags.COOKED_FISHES$SALMON).add(Items.COOKED_SALMON);
+        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:cooked_shrimp"));
+        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:steamed_crab"));
+        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:grilled_oysters"));
+        tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:steamed_clams"));
         tag(CommonTags.DOUGH).add(ModItems.WHEAT_DOUGH.get(), Content.DOUGH);
         tag(CommonTags.DOUGHS).addTag(CommonTags.DOUGH);
+        tag(ItemTags.FISHES).addOptionalTag(CommonTags.RAW_SEAFOOD);
         tag(CommonTags.MILK).add(Items.MILK_BUCKET, Content.SOY_MILK, Content.MILK_BOTTLE, ModItems.MILK_BOTTLE.get());
         tag(CommonTags.MILKS).addTag(CommonTags.MILK);
         tag(CommonTags.PASTA).addTag(CommonTags.PASTA$RAW_PASTA);
+        tag(CommonTags.PASTA$RAW_PASTA).addOptional(loc("croptopia:noodle"));
         tag(CommonTags.PUMPKIN_SOUPS).add(ModItems.PUMPKIN_SOUP.get());
         tag(CommonTags.RATATOUILLE).add(Content.RATATOUILLE.asItem(), ModItems.RATATOUILLE.get());
         tag(CommonTags.RAW_BACON).add(Content.RAW_BACON, ModItems.BACON.get());
-        tag(CommonTags.RAW_FISHES$COD).add(Items.COD);
-        tag(CommonTags.RAW_FISHES$SALMON).add(Items.SALMON);
-        tag(CommonTags.RAW_FISHES$TROPICAL_FISH).add(Items.TROPICAL_FISH);
         tag(CommonTags.RAW_FISHES).addTags(CommonTags.RAW_FISHES$COD, CommonTags.RAW_FISHES$SALMON, CommonTags.RAW_FISHES$TROPICAL_FISH, CroptopiaTags.FISHES);
         tag(CommonTags.RAW_FISHES).add(Content.ANCHOVY.asItem(),
                 Content.CALAMARI.asItem(),
@@ -71,8 +63,15 @@ public class ItemTagGenerator extends ItemTagsProvider {
                 Content.OYSTER.asItem(),
                 Content.SHRIMP.asItem(),
                 Content.TUNA.asItem());
+        tag(CommonTags.RAW_FISHES$COD).add(Items.COD);
+        tag(CommonTags.RAW_FISHES$SALMON).add(Items.SALMON);
+        tag(CommonTags.RAW_FISHES$TROPICAL_FISH).add(Items.TROPICAL_FISH);
         tag(CommonTags.RAW_MUTTON).add(Items.MUTTON, ModItems.MUTTON_CHOPS.get());
         tag(CommonTags.RAW_PORK).add(Items.PORKCHOP, ModItems.BACON.get());
+        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:clam"));
+        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:crab"));
+        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:oyster"));
+        tag(CommonTags.RAW_SEAFOOD).addOptional(loc("croptopia:shrimp"));
         tag(CommonTags.SALAD_INGREDIENTS$CABBAGE).addOptionalTag(CommonTags.CABBAGE);
         tag(CommonTags.SALAD_INGREDIENTS$LETTUCE).addOptionalTag(CommonTags.LETTUCE);
         tag(CommonTags.SALAD_INGREDIENTS).addOptionalTags(CommonTags.SALAD_INGREDIENTS$CABBAGE, CommonTags.SALAD_INGREDIENTS$LETTUCE);
@@ -147,6 +146,7 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.COOKED_TENTACLES).addOptional(loc("crabbersdelight:cooked_squid_tentacles"));
         tag(CommonTags.COOKED_TENTACLES).addOptional(loc("crabbersdelight:cooked_glow_squid_tentacles"));
         tag(CommonTags.CRABS).addOptional(loc("crabbersdelight:crab"));
+        tag(CommonTags.GLOWING_CALAMARI).addOptional(loc("crabbersdelight:raw_glow_squid_tentacles"));
         tag(CommonTags.RAW_FISHES$FUGU).addOptional(loc("crabbersdelight:pufferfish_slice"));
         tag(CommonTags.RAW_FROG_LEGS).addOptional(loc("crabbersdelight:raw_frog_leg"));
         tag(CommonTags.RAW_LOBSTERS).addOptional(loc("crabbersdelight:raw_clawster"));
@@ -173,7 +173,16 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.FISH_AND_CHIPS).addOptional(loc("casualness_delight:fish_and_chips"));
         tag(CommonTags.POTATO_CHIPS).addOptional(loc("casualness_delight:potato_chip"));
 
+        //more delight
+        tag(CommonTags.SLICED_POTATO).addOptional(loc("rusticdelight:potato_slices")); //???
+        tag(CommonTags.TOASTS).addOptional(loc("moredelight:toast"));
+        tag(CommonTags.CHEESEBURGERS).addOptional(loc("moredelight:hamburger_with_cheese"));
 
+        //oceanic delight
+        tag(CommonTags.SHRIMP).addOptionalTag(CommonTags.SHRIMPS); //really...
+        tag(CommonTags.DEEP_FRIED_SHRIMP).addOptional(loc("oceanic_delight:fried_shrimp"));
+        tag(CommonTags.COOKED_TENTACLES).addOptional(loc("oceanic_delight:grilled_squid_tentacles"));
+        tag(CommonTags.GLOWING_CALAMARI).addOptional(loc("oceanic_delight:glow_squid_tentacles"));
     }
 
     private static ResourceLocation loc(String str) {

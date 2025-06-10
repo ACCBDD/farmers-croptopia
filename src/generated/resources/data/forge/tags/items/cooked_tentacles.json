@@ -7,6 +7,10 @@
     {
       "id": "crabbersdelight:cooked_glow_squid_tentacles",
       "required": false
+    },
+    {
+      "id": "oceanic_delight:grilled_squid_tentacles",
+      "required": false
     }
   ]
 }

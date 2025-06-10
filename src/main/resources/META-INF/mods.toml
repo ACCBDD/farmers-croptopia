@@ -96,3 +96,24 @@ description='''${mod_description}'''
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="moredelight"
+    mandatory=false
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="fruitsdelight"
+    mandatory=false
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="oceanic_delight"
+    mandatory=false
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"

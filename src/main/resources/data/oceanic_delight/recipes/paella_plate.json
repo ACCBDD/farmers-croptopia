@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "oceanic_delight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "container": {
+          "item": "farmersdelight:skillet"
+        },
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "tag": "forge:crops/rice"
+          },
+          {
+            "tag": "forge:crops/rice"
+          },
+          {
+            "tag": "forge:shrimp"
+          },
+          {
+            "tag": "forge:crops/tomato"
+          },
+          {
+            "tag": "forge:raw_chicken"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "oceanic_delight:paella_plate"
+        }
+      }
+    }
+  ]
+}

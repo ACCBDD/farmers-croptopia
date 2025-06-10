@@ -3,6 +3,10 @@
     {
       "id": "crabbersdelight:shrimp",
       "required": false
+    },
+    {
+      "id": "#forge:shrimps",
+      "required": false
     }
   ]
 }

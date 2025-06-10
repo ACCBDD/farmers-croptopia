@@ -1,0 +1,35 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "moredelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "minecraft:honey_bottle"
+          },
+          {
+            "tag": "forge:toasts"
+          }
+        ],
+        "result": {
+          "count": 1,
+          "item": "moredelight:toast_with_honey"
+        },
+        "extraResults": [
+          {
+            "count": 1,
+            "item": "minecraft:glass_bottle"
+          }
+        ]
+      }
+    }
+  ]
+}
