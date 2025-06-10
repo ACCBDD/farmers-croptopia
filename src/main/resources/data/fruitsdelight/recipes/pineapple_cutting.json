@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "fruitsdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+          {
+            "tag": "forge:fruits/pineapple"
+          }
+        ],
+        "result": [
+          {
+            "count": 6,
+            "item": "fruitsdelight:pineapple_slice"
+          },
+          {
+            "item": "fruitsdelight:pineapple_sapling"
+          },
+          {
+            "chance": 0.5,
+            "item": "fruitsdelight:pineapple_sapling"
+          }
+        ],
+        "tool": {
+          "tag": "forge:tools/knives"
+        }
+      }
+    }
+  ]
+}

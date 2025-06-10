@@ -1,0 +1,43 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "fruitsdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "forge:fruits/fig"
+          },
+          {
+            "item": "farmersdelight:pie_crust"
+          },
+          {
+            "tag": "forge:eggs"
+          },
+          {
+            "item": "minecraft:sugar"
+          },
+          {
+            "tag": "forge:milk/milk_bottle"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "count": 2,
+          "item": "fruitsdelight:fig_tart"
+        }
+      }
+    }
+  ]
+}
