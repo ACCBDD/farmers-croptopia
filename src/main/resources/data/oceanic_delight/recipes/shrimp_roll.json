@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "tag": "forge:shrimp"
-    },
-    {
-      "tag": "forge:shrimp"
-    },
-    {
-      "item": "farmersdelight:cooked_rice"
-    },
-    {
-      "item": "minecraft:dried_kelp"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "oceanic_delight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:shrimp"
+          },
+          {
+            "tag": "forge:shrimp"
+          },
+          {
+            "item": "farmersdelight:cooked_rice"
+          },
+          {
+            "item": "minecraft:dried_kelp"
+          }
+        ],
+        "result": {
+          "item": "oceanic_delight:shrimp_roll",
+          "count": 2
+        }
+      }
     }
-  ],
-  "result": {
-    "item": "oceanic_delight:shrimp_roll",
-    "count": 2
-  }
+  ]
 }

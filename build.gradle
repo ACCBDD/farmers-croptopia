@@ -133,7 +133,7 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:vintage-delight-949719:5847856")
     runtimeOnly fg.deobf("curse.maven:casualness-delight-909519:5181805")
     runtimeOnly fg.deobf("curse.maven:more-delight-forge-977515:6082561")
-    //runtimeOnly fg.deobf("curse.maven:fruits-delight-943774:6500940") //????? how do you break datagen in MY MOD
+    runtimeOnly fg.deobf("curse.maven:fruits-delight-943774:6500940") //????? how do you break datagen in MY MOD
     runtimeOnly fg.deobf("curse.maven:oceanic-delight-1128831:5888912")
 
 
