@@ -46,12 +46,18 @@ jobs:
           dependencies: |
             farmers-delight(required){modrinth:farmers-delight}{curseforge:398521}
             croptopia(required){curseforge:415438}#(ignore:modrinth)
-            lmft(required){modrinth:lmft}{curseforge:656346}
             endersdelight(optional){modrinth:enders-delight}{curseforge:827163}
             nethersdelight(optional){modrinth:nethers-delight}{curseforge:496394}
             seeddelight(optional){modrinth:seed-delight}{curseforge:1016377}
             delightful(optional){modrinth:delightful}{curseforge:637529}
             rusticdelight(optional){modrinth:rustic-delight}{curseforge:1106612}
+            crabbersdelight(optional){modrinth:crabbers-delight}{curseforge:892827}
+            vintagedelight(optional){modrinth:vintage-delight}{curseforge:949719}
+            casualness_delight(optional){modrinth:casualness-delight}{curseforge:909519}
+            moredelight(optional){modrinth:more-delight}{curseforge:977515}
+            fruitsdelight(optional){modrinth:fruits-delight}{curseforge:943774}
+            oceanic_delight(optional){modrinth:oceanic-delight}{curseforge:1128831}
+            oceansdelight(optional){modrinth:oceans-delight}{curseforge:841262}
 
           curseforge-id: 1132546
           curseforge-token: "${{env.CURSEFORGE_TOKEN}}"
