@@ -117,3 +117,17 @@ description='''${mod_description}'''
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="brewinandchewin"
+    mandatory=false
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="culturaldelights"
+    mandatory=false
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"

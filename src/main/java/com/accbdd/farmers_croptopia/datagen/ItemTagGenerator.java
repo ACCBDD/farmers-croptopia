@@ -5,7 +5,6 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
@@ -168,6 +167,7 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.CHEESEBURGERS).addOptional(loc("vintagedelight:cheese_burger"));
         tag(CommonTags.PEANUT).addOptionalTag(CommonTags.PEANUTS);
         tag(CommonTags.CHILIPEPPER).addOptionalTag(CommonTags.CHILE_PEPPERS);
+        tag(CommonTags.PICKLES).addOptional(loc("vintagedelight:pickle"));
 
         //casualness delight
         tag(CommonTags.FISH_AND_CHIPS).addOptional(loc("casualness_delight:fish_and_chips"));
@@ -183,6 +183,22 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.DEEP_FRIED_SHRIMP).addOptional(loc("oceanic_delight:fried_shrimp"));
         tag(CommonTags.COOKED_TENTACLES).addOptional(loc("oceanic_delight:grilled_squid_tentacles"));
         tag(CommonTags.GLOWING_CALAMARI).addOptional(loc("oceanic_delight:glow_squid_tentacles"));
+
+        //brewin and chewin
+        tag(CommonTags.CHEESE).addOptionalTag(loc("brewinandchewin:cheese_wedges"));
+        tag(ItemTags.create(ResourceLocation.parse("brewinandchewin:pizza_toppings"))).addOptionalTag(loc("forge:cabbage")).addOptionalTag(loc("forge:onions"));
+
+        //cultural delights
+        tag(CommonTags.TORTILLAS).addOptional(loc("culturaldelights:tortilla"));
+        tag(CommonTags.AVOCADOS).addOptional(loc("culturaldelights:avocado"));
+        tag(CommonTags.CALAMARI).addOptional(loc("culturaldelights:raw_calamari"));
+        tag(CommonTags.COOKED_CALAMARI).addOptional(loc("culturaldelights:cooked_calamari"));
+        tag(CommonTags.EGGPLANTS).addOptional(loc("culturaldelights:eggplant"));
+        tag(CommonTags.EGGPLANTS).addOptional(loc("culturaldelights:white_eggplant"));
+        tag(CommonTags.SMOKED_EGGPLANTS).addOptional(loc("culturaldelights:smoked_eggplant"));
+        tag(CommonTags.SMOKED_EGGPLANTS).addOptional(loc("culturaldelights:smoked_white_eggplant"));
+        tag(CommonTags.PICKLES).addOptional(loc("culturaldelights:pickle"));
+
     }
 
     private static ResourceLocation loc(String str) {

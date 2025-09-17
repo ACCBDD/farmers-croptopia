@@ -122,7 +122,7 @@ public class CommonTags {
     public static final TagKey<Item> CHEESE_CAKES = tag("cheese_cakes");
     public static final TagKey<Item> CHEESE_PIZZAS = tag("cheese_pizzas");
     public static final TagKey<Item> CHEESEBURGERS = tag("cheeseburgers");
-    public static final TagKey<Item> CHEESES = tag("cheeses");
+    public static final TagKey<Item> CHEESE = tag("cheese");
     public static final TagKey<Item> CHERRIES = tag("cherries");
     public static final TagKey<Item> CHERRY_JAMS = tag("cherry_jams");
     public static final TagKey<Item> CHERRY_PIES = tag("cherry_pies");
@@ -649,6 +649,7 @@ public class CommonTags {
     //vintage delight
     public static final TagKey<Item> PEANUT = tag("peanut"); //im lazy oops
     public static final TagKey<Item> CHILIPEPPER = tag("chilipepper");
+    public static final TagKey<Item> PICKLES = tag("pickles");
 
     //more delight
     public static final TagKey<Item> SLICED_POTATO = tag("sliced_potato");
@@ -656,7 +657,10 @@ public class CommonTags {
     //oceanic delight
     public static final TagKey<Item> SHRIMPS = tag("shrimps");
 
+    //cultural delight
+    public static final TagKey<Item> SMOKED_EGGPLANTS = tag("smoked_eggplants");
+
     private static TagKey<Item> tag(String path) {
-        return ItemTags.create(new ResourceLocation(COMMON_NAMESPACE, path));
+        return ItemTags.create(ResourceLocation.tryBuild(COMMON_NAMESPACE, path));
     }
 }

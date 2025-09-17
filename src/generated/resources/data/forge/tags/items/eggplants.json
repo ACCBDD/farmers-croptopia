@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "culturaldelights:eggplant",
+      "required": false
+    },
+    {
+      "id": "culturaldelights:white_eggplant",
+      "required": false
+    }
+  ]
+}

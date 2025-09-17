@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vintagedelight:pickle",
+      "required": false
+    },
+    {
+      "id": "culturaldelights:pickle",
+      "required": false
+    }
+  ]
+}

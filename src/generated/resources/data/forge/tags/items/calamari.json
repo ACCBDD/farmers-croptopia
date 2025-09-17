@@ -11,6 +11,10 @@
     {
       "id": "oceansdelight:cut_tentacles",
       "required": false
+    },
+    {
+      "id": "culturaldelights:raw_calamari",
+      "required": false
     }
   ]
 }
