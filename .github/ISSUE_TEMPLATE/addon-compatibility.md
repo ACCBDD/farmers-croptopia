@@ -1,17 +1,29 @@
----
 name: Addon compatibility
-about: Request compatibility for an addon
-title: Compatibility Request
-labels: enhancement
-assignees: ACCBDD
-
----
-
-**Name of the addon**
-The name of the addon you'd like compatibility for
-
-**Describe the integration**
-How should the addon integrate with Croptopia? E.g. add cooking pot recipes, fix a recipe to take addon items, etc.
-
-**Additional context**
-Add any other context or feature requests here.
+description: Request compatibility for an addon
+labels: ["enhancement"]
+body:
+- type: dropdown
+  id: mc-version
+  attributes:
+  label: Minecraft Version
+  description: What version of minecraft?
+  options:
+    - 1.20.1
+    - 1.21.1
+      default: 0
+      validations:
+      required: true
+- type: textarea
+  id: addon-name
+  attributes:
+  label: Addon name
+  description: The name of the addon you'd like compatibility for
+  validations:
+  required: true
+- type: input
+  id: description
+  attributes:
+  label: Integration description
+  description: How should the addon integrate with Croptopia? (e.g. add cooking pot recipes, fix a recipe to take addon's items, etc.)
+  validations:
+  required: true
