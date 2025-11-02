@@ -138,7 +138,7 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:brewin-and-chewin-637808:6237884")
     runtimeOnly fg.deobf("curse.maven:cultural-delights-574622:6660005")
     runtimeOnly fg.deobf("curse.maven:veggies-delight-1082807:7115012")
-    runtimeOnly fg.deobf("curse.maven:youkais-homecoming-957437:6955538")
+    //runtimeOnly fg.deobf("curse.maven:youkais-homecoming-957437:6955538") //no. mod sucks >:(
 
 
     // For more info:
