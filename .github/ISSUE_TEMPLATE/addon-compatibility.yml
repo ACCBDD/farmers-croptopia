@@ -13,14 +13,14 @@ body:
     default: 0
   validations:
     required: true
-- type: textarea
+- type: input
   id: addon-name
   attributes:
     label: Addon name
     description: The name of the addon you'd like compatibility for
   validations:
     required: true
-- type: input
+- type: textarea
   id: description
   attributes:
     label: Integration description
