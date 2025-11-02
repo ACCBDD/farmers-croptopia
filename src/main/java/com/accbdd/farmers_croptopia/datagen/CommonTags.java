@@ -660,6 +660,8 @@ public class CommonTags {
     //cultural delight
     public static final TagKey<Item> SMOKED_EGGPLANTS = tag("smoked_eggplants");
 
+    //veggie delight
+
     private static TagKey<Item> tag(String path) {
         return ItemTags.create(ResourceLocation.tryBuild(COMMON_NAMESPACE, path));
     }

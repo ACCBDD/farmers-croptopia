@@ -199,6 +199,9 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.SMOKED_EGGPLANTS).addOptional(loc("culturaldelights:smoked_white_eggplant"));
         tag(CommonTags.PICKLES).addOptional(loc("culturaldelights:pickle"));
 
+        //veggie delight
+        tag(CommonTags.SWEETPOTATOS).addOptional(loc("veggiesdelight:sweet_potato"));
+        tag(CommonTags.BAKED_SWEET_POTATOS).addOptional(loc("veggiesdelight:baked_sweet_potato"));
     }
 
     private static ResourceLocation loc(String str) {

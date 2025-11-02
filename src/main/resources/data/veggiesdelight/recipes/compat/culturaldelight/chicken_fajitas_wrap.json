@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "veggiesdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "tag": "forge:tortillas"
+          },
+          {
+            "tag": "forge:crops/onion"
+          },
+          {
+            "tag": "forge:cooked_chicken"
+          },
+          {
+            "item": "veggiesdelight:smoked_bellpepper"
+          }
+        ],
+        "result": {
+          "item": "veggiesdelight:chicken_fajitas_wrap"
+        }
+      }
+    }
+  ]
+}

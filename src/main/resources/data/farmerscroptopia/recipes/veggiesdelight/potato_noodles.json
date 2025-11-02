@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "veggiesdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "veggiesdelight:potato_noodle"
+          },
+          {
+            "item": "veggiesdelight:potato_noodle"
+          },
+          [
+            {
+              "tag": "forge:crops/garlic"
+            },
+            {
+              "tag": "forge:crops/onion"
+            }
+          ],
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "veggiesdelight:potato_noodles"
+        }
+      }
+    }
+  ]
+}

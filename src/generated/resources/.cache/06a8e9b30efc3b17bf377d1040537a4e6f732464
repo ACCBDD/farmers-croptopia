@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-16T16:58:54.0541435	Tags for minecraft:item mod id farmers_croptopia
+// 1.20.1	2025-11-02T09:44:39.8344064	Tags for minecraft:item mod id farmers_croptopia
 78008d5719b82127101562e0d7effee0d0baa73c data/brewinandchewin/tags/items/pizza_toppings.json
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_mutton.json
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_replacements.json
@@ -7,6 +7,7 @@ dd37877308da07869bd77598d8f5a01222f9d58f data/croptopia/tags/items/fishes.json
 2aee72254da4d218e414db129a86a48e16c048e7 data/croptopia/tags/items/flourable.json
 36bc4fa6b787f67c19688688e951bda4a5d56047 data/croptopia/tags/items/meat_replacements.json
 a55bb6f18a648d322a17c130bda1bf38eee0523d data/forge/tags/items/avocados.json
+72feafe0cc75b21b8ceec55940bad75588b836b7 data/forge/tags/items/baked_sweet_potatos.json
 db8049c479ef7499c63f538d9bd663618dcccf0f data/forge/tags/items/bellpeppers.json
 fc02996b2d1515d0e3126035377777f1a94a0c6a data/forge/tags/items/berries.json
 cc30d3f0ec089613f047427432873af406afaf50 data/forge/tags/items/calamari.json
@@ -80,6 +81,7 @@ de7baae3997db1b1f518f36ead5912de07ed2c06 data/forge/tags/items/salad_ingredients
 1d100a59f9d4521b3cb0b607c0d4f0130feda0b8 data/forge/tags/items/sliced_potato.json
 eed0b6fe1985477069f97be8c132dd6f8b526d1f data/forge/tags/items/smoked_eggplants.json
 3ad83477875b5877dfa420e18a6667735a239b44 data/forge/tags/items/steamed_crabs.json
+e530b99d038d545339e2d80ebe37716aa4ab5a3e data/forge/tags/items/sweetpotatos.json
 f8d873af604cbc003fe9d7e5aea41a563a99281b data/forge/tags/items/tentacles.json
 9c58e3776522b6af6dfdae459bca3d198cea1db8 data/forge/tags/items/toasts.json
 5cf2212033f4ffa49bb20b31b258935b4609619d data/forge/tags/items/tofu.json

@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "veggiesdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "container": {
+          "item": "minecraft:bowl"
+        },
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "item": "veggiesdelight:cauliflower"
+          },
+          {
+            "tag": "forge:crops/onion"
+          },
+          {
+            "tag": "forge:crops/garlic"
+          },
+          {
+            "tag": "forge:cheese"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "veggiesdelight:cauliflower_kuku"
+        }
+      }
+    }
+  ]
+}
