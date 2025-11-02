@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "#c:raw_beef",
+      "required": false
+    },
+    {
+      "id": "#c:raw_chicken",
+      "required": false
+    },
+    {
+      "id": "#c:raw_mutton",
+      "required": false
+    }
+  ]
+}

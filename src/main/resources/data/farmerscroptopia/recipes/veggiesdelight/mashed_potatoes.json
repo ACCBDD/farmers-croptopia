@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "veggiesdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "forge:crops/sweet_potato"
+          },
+          {
+            "tag": "forge:vegetables/potato"
+          },
+          [
+            {
+              "tag": "forge:milk"
+            },
+            {
+              "tag": "forge:cheese"
+            }
+          ],
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "veggiesdelight:mashed_potatoes"
+        }
+      }
+    }
+  ]
+}

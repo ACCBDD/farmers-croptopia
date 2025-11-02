@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "oceanic_delight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "oceanic_delight:elder_guardian_eye"
+          },
+          {
+            "tag": "forge:pasta"
+          },
+          {
+            "item": "minecraft:dried_kelp"
+          },
+          {
+            "item": "farmersdelight:tomato_sauce"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "oceanic_delight:pasta_with_eyeball"
+        }
+      }
+    }
+  ]
+}

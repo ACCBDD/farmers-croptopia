@@ -1,0 +1,45 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersrespite"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "minecraft:blaze_powder"
+          },
+          {
+            "item": "minecraft:blaze_powder"
+          },
+          {
+            "item": "minecraft:nether_wart"
+          },
+          {
+            "item": "minecraft:nether_wart"
+          },
+          {
+            "tag": "forge:coffee_beans"
+          },
+          {
+            "tag": "forge:raw_beef"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "farmersrespite:blazing_chili"
+        }
+      }
+    }
+  ]
+}

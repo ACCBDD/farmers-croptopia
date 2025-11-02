@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "veggiesdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+          {
+            "type": "forge:difference",
+            "base": {
+              "tag": "forge:cauliflower"
+            },
+            "subtracted": {
+              "item": "veggiesdelight:cauliflower_floret"
+            }
+          }
+        ],
+        "result": [
+          {
+            "count": 2,
+            "item": "veggiesdelight:cauliflower_floret"
+          },
+          {
+            "item": "veggiesdelight:cauliflower_seeds"
+          }
+        ],
+        "tool": {
+          "tag": "forge:tools/knives"
+        }
+      }
+    }
+  ]
+}

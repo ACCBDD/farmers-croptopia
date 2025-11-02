@@ -1,0 +1,29 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "oceanic_delight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "oceanic_delight:salmon_eggs"
+          },
+          {
+            "tag": "forge:toasts"
+          }
+        ],
+        "result": {
+          "item": "oceanic_delight:caviar_toast",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

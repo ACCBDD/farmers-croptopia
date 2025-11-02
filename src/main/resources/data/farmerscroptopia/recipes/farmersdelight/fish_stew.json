@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:raw_fishes"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "category": "meals",
+  "result": {
+    "item": "farmersdelight:fish_stew"
+  }
+}

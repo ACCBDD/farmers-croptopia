@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "tag": "farmersdelight:wolf_prey"
+    },
+    {
+      "tag": "forge:crops/rice"
+    }
+  ],
+  "category": "misc",
+  "result": {
+    "item": "farmersdelight:dog_food"
+  }
+}

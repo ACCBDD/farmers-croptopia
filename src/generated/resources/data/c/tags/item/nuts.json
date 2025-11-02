@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#c:nuts/acorn",
+      "required": false
+    },
+    {
+      "id": "#c:nuts/pine",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "forge:chile_peppers"
+    },
+    {
+      "tag": "forge:olive_oils"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:salts"
+    }
+  ],
+  "result": {
+    "item": "croptopia:chili_relleno",
+    "count": 1
+  }
+}

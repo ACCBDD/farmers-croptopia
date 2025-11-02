@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "endersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "recipe_book_tab": "meals",
+        "ingredients": [
+          {
+            "item": "endersdelight:shulker_mollusk"
+          },
+          {
+            "item": "minecraft:chorus_fruit"
+          },
+          {
+            "tag": "forge:rice"
+          },
+          {
+            "tag": "forge:vegetables/tomato"
+          },
+          {
+            "item": "minecraft:brown_mushroom"
+          }
+        ],
+        "result": {
+          "item": "endersdelight:stuffed_shulker"
+        },
+        "container": {
+          "item": "minecraft:shulker_shell"
+        },
+        "experience": 1.0,
+        "cookingtime": 200
+      }
+    }
+  ]
+}

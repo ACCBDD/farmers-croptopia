@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mynethersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "mynethersdelight:minced_strider"
+          },
+          {
+            "item": "minecraft:crimson_fungus"
+          },
+          {
+            "item": "minecraft:crimson_fungus"
+          },
+          {
+            "tag": "forge:milk"
+          },
+          {
+            "tag": "forge:pasta/raw_pasta"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "mynethersdelight:crimson_stroganoff"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#c:salad_ingredients/cabbage",
+      "required": false
+    },
+    {
+      "id": "#c:salad_ingredients/lettuce",
+      "required": false
+    }
+  ]
+}

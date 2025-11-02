@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "tag": "forge:milks"
+    },
+    {
+      "tag": "forge:salts"
+    }
+  ],
+  "result": {
+    "item": "croptopia:butter",
+    "count": 1
+  }
+}

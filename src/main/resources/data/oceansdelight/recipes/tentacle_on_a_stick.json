@@ -1,0 +1,27 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "oceansdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:stick"
+          },
+          {
+            "tag": "forge:tentacles"
+          }
+        ],
+        "result": {
+          "item": "oceansdelight:tentacle_on_a_stick"
+        }
+      }
+    }
+  ]
+}

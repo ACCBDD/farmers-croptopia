@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "minecraft:stick"
+          },
+          {
+            "tag": "forge:cooked_shrimp"
+          },
+          {
+            "tag": "forge:cooked_shrimp"
+          },
+          {
+            "tag": "forge:tomatoes"
+          }
+        ],
+        "result": {
+          "item": "crabbersdelight:shrimp_skewer"
+        }
+      }
+    }
+  ]
+}

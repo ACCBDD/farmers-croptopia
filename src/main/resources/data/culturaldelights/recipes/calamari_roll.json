@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "culturaldelights"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:dried_kelp"
+          },
+          {
+            "item": "farmersdelight:cooked_rice"
+          },
+          {
+            "tag": "forge:calamari"
+          },
+          {
+            "item": "culturaldelights:raw_calamari"
+          }
+        ],
+        "result": {
+          "item": "culturaldelights:calamari_roll",
+          "count": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "seeddelight:seeddelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "minecraft:bowl"
+          },
+          {
+            "tag": "forge:fruits/cherry"
+          },
+          {
+            "tag": "forge:milk"
+          },
+          {
+            "item": "minecraft:ice"
+          },
+          {
+            "item": "minecraft:sugar"
+          }
+        ],
+        "result": {
+          "item": "seeddelight:cherry_ice_cream",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

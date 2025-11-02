@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "oceanic_delight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "container": {
+          "item": "minecraft:bowl"
+        },
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "item": "oceanic_delight:elder_guardian_eye"
+          },
+          {
+            "tag": "forge:crops/cabbage"
+          },
+          {
+            "item": "minecraft:sugar"
+          },
+          {
+            "tag": "forge:crops/rice"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "oceanic_delight:globular_rice"
+        }
+      }
+    }
+  ]
+}

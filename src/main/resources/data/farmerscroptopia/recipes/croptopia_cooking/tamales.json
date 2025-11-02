@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "tag": "forge:onions"
+    },
+    {
+      "item": "croptopia:corn_husk"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:salts"
+    },
+    {
+      "tag": "forge:chile_peppers"
+    }
+  ],
+  "result": {
+    "item": "croptopia:tamales",
+    "count": 2
+  }
+}

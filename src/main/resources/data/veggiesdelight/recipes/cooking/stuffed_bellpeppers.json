@@ -1,0 +1,50 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "veggiesdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "container": {
+          "item": "minecraft:bowl"
+        },
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "tag": "forge:bellpeppers"
+          },
+          {
+            "tag": "forge:bellpeppers"
+          },
+          {
+            "tag": "forge:bellpeppers"
+          },
+          {
+            "tag": "forge:crops/tomato"
+          },
+          [
+            {
+              "tag": "forge:raw_beef"
+            },
+            {
+              "tag": "forge:raw_chicken"
+            },
+            {
+              "tag": "forge:raw_mutton"
+            }
+          ]
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "veggiesdelight:stuffed_bellpeppers_block"
+        }
+      }
+    }
+  ]
+}

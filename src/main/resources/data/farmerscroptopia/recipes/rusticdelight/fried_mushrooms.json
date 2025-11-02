@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "rusticdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "rusticdelight:cooking_oil"
+          },
+          {
+            "item": "minecraft:brown_mushroom"
+          },
+          {
+            "item": "minecraft:red_mushroom"
+          },
+          {
+            "tag": "forge:vegetables/onion"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "rusticdelight:fried_mushrooms"
+        }
+      }
+    }
+  ]
+}

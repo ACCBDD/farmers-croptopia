@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "oceansdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "minecraft:dried_kelp"
+          },
+          {
+            "item": "minecraft:honey_bottle"
+          }
+        ],
+        "result": {
+          "item": "oceansdelight:honey_fried_kelp"
+        }
+      }
+    }
+  ]
+}

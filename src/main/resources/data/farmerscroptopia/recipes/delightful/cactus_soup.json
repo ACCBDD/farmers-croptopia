@@ -1,0 +1,43 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "delightful:enabled",
+          "value": "cactus_soup"
+        },
+        {
+          "type": "delightful:enabled",
+          "value": "cactus_flesh"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "delightful:cactus_flesh"
+          },
+          {
+            "tag": "forge:vegetables/tomato"
+          },
+          {
+            "tag": "forge:hot_spice"
+          },
+          {
+            "tag": "forge:grain/rice"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "delightful:cactus_soup"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:raw_fishes/cod"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    }
+  ],
+  "category": "meals",
+  "result": {
+    "item": "farmersdelight:baked_cod_stew"
+  }
+}

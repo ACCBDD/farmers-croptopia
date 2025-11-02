@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "endersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "recipe_book_tab": "meals",
+        "ingredients": [
+          {
+            "tag": "endersdelight:enderman_sight"
+          },
+          {
+            "tag": "endersdelight:shulker_loot"
+          },
+          {
+            "item": "minecraft:chorus_flower"
+          },
+          {
+            "tag": "forge:grain/rice"
+          }
+        ],
+        "result": {
+          "item": "endersdelight:ender_paella"
+        },
+        "container": {
+          "item": "endersdelight:shulker_bowl"
+        },
+        "experience": 1.0,
+        "cookingtime": 200
+      }
+    }
+  ]
+}

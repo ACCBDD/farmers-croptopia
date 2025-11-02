@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "tag": "forge:lemons"
+    },
+    {
+      "tag": "forge:chile_peppers"
+    },
+    {
+      "tag": "forge:tomatoes"
+    },
+    {
+      "tag": "croptopia:chicken_replacements"
+    }
+  ],
+  "result": {
+    "item": "croptopia:lemon_chicken",
+    "count": 1
+  }
+}

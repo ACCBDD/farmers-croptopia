@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "nethersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "nethersdelight:raw_strider"
+          },
+          {
+            "item": "minecraft:warped_fungus"
+          },
+          {
+            "item": "minecraft:crimson_fungus"
+          },
+          {
+            "item": "minecraft:warped_roots"
+          },
+          {
+            "item": "minecraft:crimson_roots"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "nethersdelight:grilled_strider"
+        }
+      }
+    }
+  ]
+}

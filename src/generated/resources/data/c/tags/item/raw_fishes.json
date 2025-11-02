@@ -1,0 +1,28 @@
+{
+  "values": [
+    "#c:raw_fishes/cod",
+    "#c:raw_fishes/salmon",
+    "#c:raw_fishes/tropical_fish",
+    "#croptopia:fishes",
+    "croptopia:anchovy",
+    "croptopia:calamari",
+    "croptopia:glowing_calamari",
+    "croptopia:clam",
+    "croptopia:crab",
+    "croptopia:oyster",
+    "croptopia:shrimp",
+    "croptopia:tuna",
+    {
+      "id": "#c:raw_fishes/calamari",
+      "required": false
+    },
+    {
+      "id": "#c:raw_fishes/elder_guardian",
+      "required": false
+    },
+    {
+      "id": "#c:raw_fishes/fugu",
+      "required": false
+    }
+  ]
+}

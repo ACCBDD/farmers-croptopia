@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "crabbersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "container": {
+          "item": "minecraft:bowl"
+        },
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "item": "farmersdelight:cooked_rice"
+          },
+          {
+            "tag": "forge:onions"
+          },
+          {
+            "tag": "forge:shrimp"
+          },
+          {
+            "item": "minecraft:carrot"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "crabbersdelight:shrimp_fried_rice"
+        }
+      }
+    }
+  ]
+}

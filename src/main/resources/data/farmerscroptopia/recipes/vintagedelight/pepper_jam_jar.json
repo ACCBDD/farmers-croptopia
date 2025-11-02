@@ -1,0 +1,45 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "vintagedelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "vintagedelight:pickled_pepper"
+          },
+          {
+            "item": "vintagedelight:pickled_pepper"
+          },
+          {
+            "item": "vintagedelight:pickled_pepper"
+          },
+          {
+            "item": "vintagedelight:pickled_pepper"
+          },
+          {
+            "item": "vintagedelight:pickled_pepper"
+          },
+          {
+            "item": "minecraft:sugar"
+          },
+          {
+            "item": "vintagedelight:mason_jar"
+          }
+        ],
+        "result": {
+          "item": "vintagedelight:pepper_jam_mason_jar"
+        }
+      }
+    }
+  ]
+}

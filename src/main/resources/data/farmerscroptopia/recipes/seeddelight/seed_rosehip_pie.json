@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "seeddelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "seeddelight:cant_eat_seed"
+          },
+          {
+            "tag": "seeddelight:cant_eat_seed"
+          },
+          {
+            "item": "minecraft:wheat"
+          },
+          {
+            "item": "seeddelight:rosehip"
+          }
+        ],
+        "result": {
+          "item": "seeddelight:seed_rosehip_pie"
+        }
+      }
+    }
+  ]
+}

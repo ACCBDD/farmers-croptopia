@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "culturaldelights"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "forge:crops/corn"
+          },
+          {
+            "tag": "forge:milk"
+          },
+          {
+            "item": "minecraft:stick"
+          }
+        ],
+        "result": {
+          "item": "culturaldelights:elote",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

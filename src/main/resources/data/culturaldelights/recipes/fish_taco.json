@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "culturaldelights"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:tortillas"
+          },
+          {
+            "tag": "forge:cooked_fishes"
+          },
+          {
+            "tag": "forge:crops/tomato"
+          },
+          {
+            "tag": "forge:salad_ingredients"
+          }
+        ],
+        "result": {
+          "item": "culturaldelights:fish_taco",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

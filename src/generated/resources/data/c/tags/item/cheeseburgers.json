@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vintagedelight:cheese_burger",
+      "required": false
+    },
+    {
+      "id": "moredelight:hamburger_with_cheese",
+      "required": false
+    }
+  ]
+}

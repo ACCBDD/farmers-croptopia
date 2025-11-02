@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "oceansdelight:fugu_slice",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:pufferfish_slice",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "vintagedelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "forge:chilipepper"
+          },
+          {
+            "tag": "forge:pasta"
+          },
+          {
+            "item": "farmersdelight:cooked_chicken_cuts"
+          },
+          {
+            "item": "vintagedelight:nut_mash_bottle"
+          },
+          {
+            "tag": "forge:peanuts"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "vintagedelight:pad_thai"
+        }
+      }
+    }
+  ]
+}

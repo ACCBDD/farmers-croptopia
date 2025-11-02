@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "endersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "endersdelight:enderman_sight"
+          },
+          {
+            "tag": "endersdelight:shulker_loot"
+          },
+          {
+            "item": "minecraft:chorus_flower"
+          },
+          {
+            "tag": "forge:grain/rice"
+          },
+          {
+            "item": "endersdelight:shulker_bowl"
+          }
+        ],
+        "category": "drinks",
+        "result": {
+          "item": "endersdelight:ender_paella"
+        }
+      }
+    }
+  ]
+}

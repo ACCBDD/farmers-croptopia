@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "culturaldelights"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:tortillas"
+          },
+          {
+            "tag": "forge:cooked_beef"
+          },
+          {
+            "tag": "forge:avocados"
+          },
+          {
+            "item": "farmersdelight:cooked_rice"
+          }
+        ],
+        "result": {
+          "item": "culturaldelights:beef_burrito",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

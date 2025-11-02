@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "tag": "forge:noodles"
+    },
+    {
+      "tag": "forge:chile_peppers"
+    },
+    {
+      "tag": "forge:olive_oils"
+    },
+    {
+      "tag": "croptopia:chicken_replacements"
+    }
+  ],
+  "result": {
+    "item": "croptopia:chicken_and_noodles",
+    "count": 1
+  }
+}

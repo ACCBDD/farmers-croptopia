@@ -1,0 +1,45 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "brewinandchewin"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "item": "farmersdelight:tomato_sauce"
+          },
+          {
+            "tag": "forge:vegetables/potato"
+          },
+          {
+            "tag": "forge:milk"
+          },
+          {
+            "item": "brewinandchewin:scarlet_cheese_wheel"
+          },
+          {
+            "item": "farmersdelight:ham"
+          },
+          {
+            "tag": "forge:bread"
+          },
+          {
+            "item": "minecraft:cauldron"
+          }
+        ],
+        "result": {
+          "item": "brewinandchewin:fiery_fondue_pot"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "culturaldelights"
+        }
+      ],
+      "recipe": {
+        "type": "brewinandchewin:fermenting",
+        "experience": 0.6,
+        "fermentingtime": 12000,
+        "ingredients": [
+          {
+            "tag": "forge:cucumbers"
+          },
+          {
+            "tag": "forge:cucumbers"
+          },
+          {
+            "tag": "forge:cucumbers"
+          },
+          {
+            "tag": "forge:cucumbers"
+          }
+        ],
+        "result": {
+          "count": 4,
+          "item": "culturaldelights:pickle"
+        },
+        "temperature": 2
+      }
+    }
+  ]
+}

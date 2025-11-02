@@ -1,0 +1,25 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "culturaldelights"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "tag": "forge:avocados"
+          }
+        ],
+        "result": {
+          "item": "culturaldelights:avocado_pit",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "oceanic_delight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "container": {
+          "item": "minecraft:bowl"
+        },
+        "cookingtime": 200,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "tag": "forge:pasta"
+          },
+          {
+            "tag": "forge:crops/onion"
+          },
+          {
+            "item": "minecraft:bamboo"
+          },
+          {
+            "item": "oceanic_delight:salmon_eggs"
+          }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "oceanic_delight:fish_egg_noodle_soup"
+        }
+      }
+    }
+  ]
+}

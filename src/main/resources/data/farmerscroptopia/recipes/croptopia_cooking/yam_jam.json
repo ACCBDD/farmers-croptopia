@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredients": [
+    {
+      "tag": "forge:yams"
+    },
+    {
+      "tag": "forge:vanilla"
+    },
+    {
+      "tag": "forge:milks"
+    },
+    {
+      "tag": "forge:milks"
+    }
+  ],
+  "result": {
+    "item": "croptopia:yam_jam"
+  }
+}

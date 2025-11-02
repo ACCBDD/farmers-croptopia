@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "crabbersdelight:shrimp",
+      "required": false
+    },
+    {
+      "id": "#c:shrimps",
+      "required": false
+    }
+  ]
+}

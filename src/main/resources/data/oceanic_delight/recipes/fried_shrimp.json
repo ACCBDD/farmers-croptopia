@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "oceanic_delight"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cooking",
+        "cookingtime": 100,
+        "experience": 1.0,
+        "ingredients": [
+          {
+            "item": "minecraft:wheat"
+          },
+          {
+            "tag": "forge:eggs"
+          },
+          {
+            "tag": "forge:shrimp"
+          }
+        ],
+        "recipe_book_tab": "misc",
+        "result": {
+          "item": "oceanic_delight:fried_shrimp"
+        }
+      }
+    }
+  ]
+}

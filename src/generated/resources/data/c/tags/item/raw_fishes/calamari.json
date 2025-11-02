@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "rusticdelight:calamari",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:calamari_slice",
+      "required": false
+    }
+  ]
+}

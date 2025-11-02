@@ -1,0 +1,35 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "seeddelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "minecraft:wheat"
+          },
+          {
+            "item": "minecraft:wheat"
+          },
+          {
+            "item": "seeddelight:acorn_kernel"
+          },
+          {
+            "item": "seeddelight:acorn_kernel"
+          }
+        ],
+        "result": {
+          "item": "seeddelight:acorn_bread",
+          "count": 1
+        }
+      }
+    }
+  ]
+}
