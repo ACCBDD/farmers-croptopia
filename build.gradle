@@ -121,7 +121,6 @@ dependencies {
     }
 
     //extra compat
-    //runtimeOnly fg.deobf("curse.maven:farmers-respite-551453:5543547")
     runtimeOnly fg.deobf("curse.maven:nethers-delight-496394:4736227")
     runtimeOnly fg.deobf("curse.maven:oceans-delight-841262:4652060")
     runtimeOnly fg.deobf("curse.maven:enders-delight-827163:4760462")
@@ -139,6 +138,10 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:cultural-delights-574622:6660005")
     runtimeOnly fg.deobf("curse.maven:veggies-delight-1082807:7115012")
     //runtimeOnly fg.deobf("curse.maven:youkais-homecoming-957437:6955538") //no. mod sucks >:(
+    runtimeOnly fg.deobf("curse.maven:farmers-respite-551453:5543547")
+    runtimeOnly fg.deobf("curse.maven:miners-delight-plus-689630:5038950")
+    runtimeOnly fg.deobf("curse.maven:my-nethers-delight-1003673:6529919")
+
 
 
     // For more info:

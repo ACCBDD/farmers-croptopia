@@ -79,7 +79,7 @@ input_files = glob.glob('input/**', recursive=True)
 
 # convert fd cooking recipes to croptopia
 for file in input_files:
-    modid = "veggiesdelight"
+    modid = "mynethersdelight"
     if file.endswith('.json'):
         with open(file, 'r') as f:
             input_recipe = json.load(f)

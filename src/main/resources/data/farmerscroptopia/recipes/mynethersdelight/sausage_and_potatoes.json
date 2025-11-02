@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mynethersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "forge:crops/potato"
+          },
+          {
+            "item": "mynethersdelight:hoglin_sausage"
+          },
+          {
+            "item": "mynethersdelight:hoglin_sausage"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "mynethersdelight:sausage_and_potatoes"
+        }
+      }
+    }
+  ]
+}

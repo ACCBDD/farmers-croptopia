@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "mynethersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "croptopia:cooking_pot"
+          },
+          {
+            "tag": "mynethersdelight:loin_hoglin"
+          },
+          {
+            "item": "minecraft:wheat"
+          },
+          {
+            "tag": "forge:milk"
+          },
+          {
+            "tag": "forge:eggs"
+          },
+          {
+            "item": "mynethersdelight:bullet_pepper"
+          },
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "result": {
+          "item": "mynethersdelight:fried_hoglin_chop"
+        }
+      }
+    }
+  ]
+}
