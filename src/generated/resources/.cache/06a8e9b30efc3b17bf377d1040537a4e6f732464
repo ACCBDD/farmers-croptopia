@@ -1,4 +1,4 @@
-// 1.20.1	2025-11-02T10:48:24.3487034	Tags for minecraft:item mod id farmers_croptopia
+// 1.20.1	2025-11-02T11:26:11.8569294	Tags for minecraft:item mod id farmers_croptopia
 78008d5719b82127101562e0d7effee0d0baa73c data/brewinandchewin/tags/items/pizza_toppings.json
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_mutton.json
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_replacements.json
@@ -21,7 +21,7 @@ b14512a4614b67738fa31ad0fa5a0fdf02ce963c data/forge/tags/items/cherry_jams.json
 2456e6fcb47d93e2f3c07daf3c9b7acb77ff65be data/forge/tags/items/clams.json
 10aa8cd5a432f3b2665c6428087b4b28d62764e9 data/forge/tags/items/clam_meat.json
 4d2eddc7e4e5314b4d2cc34809deee53ed92883b data/forge/tags/items/coffees.json
-6ade92eb32832695a8b920011cf712a0592e0005 data/forge/tags/items/coffee_beans.json
+37c4e33e812be4cc8aa1b700e12ff688fe98aec4 data/forge/tags/items/coffee_beans.json
 ec78477a207e474dde85fa099a5d61634ef78552 data/forge/tags/items/cooked_calamari.json
 d11a9bcb663911d7ae8d0a956bde52a6d4ca663e data/forge/tags/items/cooked_eggs.json
 210b4df8791063dd5eb8449ca589bf32f3376abb data/forge/tags/items/cooked_fishes.json
