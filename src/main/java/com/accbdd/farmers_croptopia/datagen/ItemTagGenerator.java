@@ -34,6 +34,7 @@ public class ItemTagGenerator extends ItemTagsProvider {
                 Content.RASPBERRY.asItem(),
                 Content.STRAWBERRY.asItem(),
                 Content.RASPBERRY.asItem());
+        tag(CommonTags.CHEESES).addTag(CommonTags.CHEESE);
         tag(CommonTags.COOKED_EGGS).add(Content.SUNNY_SIDE_EGGS, Content.SCRAMBLED_EGGS);
         tag(CommonTags.COOKED_FISHES).addTags(CommonTags.COOKED_FISHES$COD, CommonTags.COOKED_FISHES$SALMON);
         tag(CommonTags.COOKED_FISHES).add(Content.COOKED_CALAMARI.asItem(), Content.COOKED_ANCHOVY.asItem(), Content.COOKED_SHRIMP.asItem(), Content.COOKED_TUNA.asItem());

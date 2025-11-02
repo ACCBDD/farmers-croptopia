@@ -1,4 +1,4 @@
-// 1.20.1	2025-11-02T09:44:39.8344064	Tags for minecraft:item mod id farmers_croptopia
+// 1.20.1	2025-11-02T10:48:24.3487034	Tags for minecraft:item mod id farmers_croptopia
 78008d5719b82127101562e0d7effee0d0baa73c data/brewinandchewin/tags/items/pizza_toppings.json
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_mutton.json
 810a8b90c56a12fa089e5ddcecea07aa40c3a667 data/croptopia/tags/items/beef_replacements.json
@@ -13,6 +13,7 @@ fc02996b2d1515d0e3126035377777f1a94a0c6a data/forge/tags/items/berries.json
 cc30d3f0ec089613f047427432873af406afaf50 data/forge/tags/items/calamari.json
 fe360cdcc8bb6949477fb3b7f89106683e5a7582 data/forge/tags/items/cheese.json
 f81a4e57890aa947d0ae13777125b9736041b339 data/forge/tags/items/cheeseburgers.json
+4a8cdc77e14731d7decd9c89def602f12485efd8 data/forge/tags/items/cheeses.json
 35176f9b7b082ff3815a65f65265d775a253214e data/forge/tags/items/cheese_pizzas.json
 b14512a4614b67738fa31ad0fa5a0fdf02ce963c data/forge/tags/items/cherry_jams.json
 875426589d24380ddddffe065f6bfaf9f2eecdf5 data/forge/tags/items/chile_peppers.json
