@@ -109,7 +109,7 @@ dependencies {
     localRuntime "curse.maven:oceans-delight-841262:5618115"
     localRuntime "curse.maven:crabbers-delight-892827:7084860"
     localRuntime "curse.maven:casualness-delight-909519:5853751"
-    //localRuntime "curse.maven:fruits-delight-943774:7041466" //still?? how are you breaking datagen in MY MOD
+    localRuntime "curse.maven:fruits-delight-943774:7041466" //still?? how are you breaking datagen in MY MOD
     localRuntime "curse.maven:brewin-and-chewin-637808:6631432"
     localRuntime "curse.maven:veggies-delight-1082807:7115024"
     localRuntime "curse.maven:miners-delight-plus-689630:6860679"

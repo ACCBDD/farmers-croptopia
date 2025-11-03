@@ -13,8 +13,10 @@
   ],
   "results": [
     {
-      "count": 8,
-      "item": "fruitsdelight:pineapple_slice"
+      "item": {
+        "id": "fruitsdelight:pineapple_slice",
+        "count": 8
+      }
     }
   ],
   "neoforge:conditions": [
