@@ -58,6 +58,13 @@ jobs:
             fruitsdelight(optional){modrinth:fruits-delight}{curseforge:943774}
             oceanic_delight(optional){modrinth:oceanic-delight}{curseforge:1128831}
             oceansdelight(optional){modrinth:oceans-delight}{curseforge:841262}
+            brewinandchewin(optional){modrinth:brewin-and-chewin}{curseforge:637808}
+            culturaldelights(optional){modrinth:cultural-delights}{curseforge:574622}
+            culturaldelights(optional){modrinth:cultural-delights}{curseforge:574622}
+            veggiesdelight(optional){modrinth:veggies-delight}{curseforge:1082807}
+            farmersrespite(optional){curseforge:551453}#(ignore:modrinth)
+            minersdelightplus(optional){modrinth:miners-delight}{curseforge:689630}
+            mynethersdelight(optional){modrinth:my-nethers-delight}{curseforge:1003673}
 
           curseforge-id: 1132546
           curseforge-token: "${{env.CURSEFORGE_TOKEN}}"
