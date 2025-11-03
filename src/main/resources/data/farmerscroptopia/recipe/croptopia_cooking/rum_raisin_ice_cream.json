@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:raisins"
+    },
+    {
+      "tag": "c:rums"
+    },
+    {
+      "tag": "c:milks"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "id": "croptopia:rum_raisin_ice_cream",
+    "count": 1
+  }
+}

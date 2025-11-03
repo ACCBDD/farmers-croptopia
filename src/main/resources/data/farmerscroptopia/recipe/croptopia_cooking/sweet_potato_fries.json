@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "tag": "c:sweetpotatos"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "tag": "c:olive_oils"
+    }
+  ],
+  "result": {
+    "id": "croptopia:sweet_potato_fries",
+    "count": 1
+  }
+}

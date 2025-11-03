@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "c:raw_strider"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:warped_fungus"
+        },
+        {
+          "item": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:warped_fungus"
+        },
+        {
+          "item": "minecraft:crimson_fungus"
+        },
+        {
+          "item": "minecraft:red_mushroom"
+        },
+        {
+          "item": "minecraft:brown_mushroom"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:warped_roots"
+        },
+        {
+          "item": "minecraft:crimson_roots"
+        },
+        {
+          "item": "farmersdelight:straw"
+        }
+      ]
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "mynethersdelight:strider_stew"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mynethersdelight"
+    }
+  ]
+}

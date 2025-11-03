@@ -78,6 +78,8 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.SHEPHERDS_PIE).add(ModItems.SHEPHERDS_PIE.get());
 
         //fd base to croptopia tags
+        tag(CommonTags.RAW_BEEF).addOptionalTag(loc("c:foods/raw_beef"));
+        tag(CommonTags.RAW_CHICKEN).addOptionalTag(loc("c:foods/raw_chicken"));
         tag(CroptopiaTags.BEEF_MUTTON).addOptionalTag(CommonTags.RAW_BEEF);
         tag(CroptopiaTags.BEEF_REPLACEMENTS).addOptionalTag(CommonTags.RAW_BEEF);
         tag(CroptopiaTags.CHICKEN_REPLACEMENTS).addOptionalTag(CommonTags.RAW_CHICKEN);
@@ -186,8 +188,8 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.GLOWING_CALAMARI).addOptional(loc("oceanic_delight:glow_squid_tentacles"));
 
         //brewin and chewin
-        tag(CommonTags.CHEESE).addOptionalTag(loc("brewinandchewin:cheese_wedges"));
-        tag(ItemTags.create(ResourceLocation.parse("brewinandchewin:pizza_toppings"))).addOptionalTag(loc("forge:cabbage")).addOptionalTag(loc("forge:onions"));
+        tag(CommonTags.CHEESE).addOptionalTag(loc("brewinandchewin:foods/cheese_wedge"));
+        tag(ItemTags.create(ResourceLocation.parse("brewinandchewin:pizza_toppings"))).addOptionalTag(loc("c:cabbage")).addOptionalTag(loc("c:onions"));
 
         //cultural delights
         tag(CommonTags.TORTILLAS).addOptional(loc("culturaldelights:tortilla"));

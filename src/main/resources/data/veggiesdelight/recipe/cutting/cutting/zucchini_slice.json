@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "type": "neoforge:difference",
+      "base": {
+        "tag": "c:zucchini"
+      },
+      "subtracted": {
+        "item": "veggiesdelight:zucchini_slice"
+      }
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "veggiesdelight:zucchini_slice"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "veggiesdelight"
+    }
+  ]
+}

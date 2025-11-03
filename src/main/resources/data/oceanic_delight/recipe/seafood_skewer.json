@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "d  "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:deep_fried_shrimp"
+    },
+    "b": {
+      "tag": "c:cooked_tentacles"
+    },
+    "c": {
+      "tag": "c:sea_pickles"
+    },
+    "d": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "oceanic_delight:seafood_skewer",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "oceanic_delight"
+    }
+  ]
+}

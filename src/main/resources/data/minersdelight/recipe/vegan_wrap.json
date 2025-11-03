@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:tortillas"
+    },
+    {
+      "tag": "minersdelight:baked_cave_carrot"
+    },
+    {
+      "tag": "minersdelight:baked_cave_carrot"
+    }
+  ],
+  "result": {
+    "id": "minersdelight:vegan_wrap"
+  }
+}

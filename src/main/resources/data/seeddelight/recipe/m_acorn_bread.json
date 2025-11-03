@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "seeddelight:acorn_kernel"
+    },
+    {
+      "item": "seeddelight:acorn_kernel"
+    }
+  ],
+  "result": {
+    "id": "seeddelight:acorn_bread",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "seeddelight"
+    }
+  ]
+}

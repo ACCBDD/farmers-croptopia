@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "rusticdelight:cooking_oil_ingredients"
+    },
+    {
+      "tag": "rusticdelight:cooking_oil_ingredients"
+    },
+    {
+      "tag": "rusticdelight:cooking_oil_ingredients"
+    },
+    {
+      "tag": "rusticdelight:cooking_oil_ingredients"
+    },
+    {
+      "tag": "rusticdelight:cooking_oil_ingredients"
+    },
+    {
+      "tag": "rusticdelight:cooking_oil_ingredients"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "rusticdelight:cooking_oil"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rusticdelight"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "container": {
+    "id": "vintagedelight:mason_jar"
+  },
+  "ingredients": [
+    {
+      "tag": "c:cooked_nuts"
+    },
+    {
+      "tag": "c:cooked_nuts"
+    },
+    {
+      "tag": "c:cooked_nuts"
+    },
+    {
+      "tag": "c:cooked_nuts"
+    },
+    {
+      "tag": "c:cooked_nuts"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "id": "vintagedelight:nut_mash_mason_jar"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ]
+}

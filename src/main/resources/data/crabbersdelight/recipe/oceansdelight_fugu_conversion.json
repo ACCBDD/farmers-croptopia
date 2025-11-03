@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "crabbersdelight:pufferfish_slice"
+    }
+  ],
+  "result": {
+    "id": "oceansdelight:fugu_slice",
+    "count": 3
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "crabbersdelight"
+        },
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "oceansdelight"
+        }
+      ]
+    }
+  ]
+}

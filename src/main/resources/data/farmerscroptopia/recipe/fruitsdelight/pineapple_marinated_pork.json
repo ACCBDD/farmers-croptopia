@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "c:raw_pork"
+    },
+    {
+      "item": "fruitsdelight:pineapple_slice"
+    },
+    {
+      "item": "fruitsdelight:pineapple_slice"
+    },
+    {
+      "item": "fruitsdelight:pineapple_slice"
+    },
+    {
+      "item": "fruitsdelight:pineapple_slice"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "fruitsdelight:pineapple_marinated_pork"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fruitsdelight"
+    }
+  ]
+}

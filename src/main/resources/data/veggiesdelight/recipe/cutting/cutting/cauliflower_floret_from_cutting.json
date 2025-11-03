@@ -1,0 +1,36 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "type": "neoforge:difference",
+      "base": {
+        "tag": "c:cauliflower"
+      },
+      "subtracted": {
+        "item": "veggiesdelight:cauliflower_floret"
+      }
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "veggiesdelight:cauliflower_floret"
+      }
+    },
+    {
+      "item": {
+        "id": "veggiesdelight:cauliflower_seeds"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "veggiesdelight"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "endersdelight:enderman_sight"
+    },
+    {
+      "tag": "endersdelight:shulker_loot"
+    },
+    {
+      "item": "minecraft:chorus_flower"
+    },
+    {
+      "tag": "c:grain/rice"
+    }
+  ],
+  "result": {
+    "id": "endersdelight:ender_paella"
+  },
+  "container": {
+    "id": "endersdelight:shulker_bowl"
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "endersdelight"
+    }
+  ]
+}

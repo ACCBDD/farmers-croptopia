@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "oceanic_delight:salmon_eggs"
+    },
+    {
+      "tag": "c:toasts"
+    }
+  ],
+  "result": {
+    "id": "oceanic_delight:caviar_toast",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "oceanic_delight"
+    }
+  ]
+}

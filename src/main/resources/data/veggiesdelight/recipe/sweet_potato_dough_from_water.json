@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:sweetpotatos"
+    },
+    {
+      "tag": "c:sweetpotatos"
+    },
+    {
+      "tag": "c:grain/wheat"
+    },
+    {
+      "tag": "c:water_bottles"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "veggiesdelight:sweet_potato_dough"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "veggiesdelight"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "tag": "c:squid"
+    },
+    {
+      "tag": "c:rice"
+    },
+    {
+      "tag": "c:rice"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minersdelight:cave_carrot"
+        },
+        {
+          "item": "minecraft:carrot"
+        }
+      ]
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:onions"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "minersdelight:stuffed_squid"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minersdelight"
+    }
+  ]
+}

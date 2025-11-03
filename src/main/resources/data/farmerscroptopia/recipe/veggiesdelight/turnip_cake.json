@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "c:crops/turnip"
+    },
+    {
+      "tag": "c:grain"
+    },
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "tag": "c:raw_bacon"
+        },
+        {
+          "tag": "c:raw_beef"
+        },
+        {
+          "tag": "c:raw_chicken"
+        },
+        {
+          "tag": "c:raw_fishes"
+        },
+        {
+          "tag": "c:raw_mutton"
+        },
+        {
+          "tag": "c:raw_pork"
+        }
+      ]
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "veggiesdelight:turnip_cake"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "veggiesdelight"
+    }
+  ]
+}

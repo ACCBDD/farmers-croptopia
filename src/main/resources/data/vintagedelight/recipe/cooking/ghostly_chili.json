@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "vintagedelight:ghost_pepper"
+    },
+    {
+      "item": "vintagedelight:ghost_pepper"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "c:tomatoes"
+    },
+    {
+      "item": "farmersdelight:minced_beef"
+    }
+  ],
+  "result": {
+    "id": "vintagedelight:ghostly_chili"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ]
+}

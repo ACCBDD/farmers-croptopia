@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:bowl"
+    },
+    "c": {
+      "item": "crabbersdelight:coral_fragments"
+    },
+    "m": {
+      "tag": "c:milks"
+    }
+  },
+  "pattern": [
+    " m ",
+    "ccc",
+    " b "
+  ],
+  "result": {
+    "id": "crabbersdelight:coral_crunch"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crabbersdelight"
+    }
+  ]
+}

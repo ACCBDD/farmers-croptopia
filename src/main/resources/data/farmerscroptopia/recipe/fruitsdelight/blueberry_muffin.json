@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "c:fruits/blueberry"
+    },
+    {
+      "tag": "c:fruits/blueberry"
+    },
+    {
+      "tag": "c:dough/wheat"
+    },
+    {
+      "tag": "c:milk/milk_bottle"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "fruitsdelight:blueberry_muffin"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fruitsdelight"
+    }
+  ]
+}

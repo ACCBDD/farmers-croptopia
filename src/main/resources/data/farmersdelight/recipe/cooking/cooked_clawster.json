@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "crabbersdelight:clawster"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "id": "crabbersdelight:cooked_clawster"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crabbersdelight"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "vintagedelight:fermenting",
+  "processingTime": 2400,
+  "ingredients": [
+    {
+      "tag": "c:onions"
+    },
+    {
+      "tag": "c:onions"
+    },
+    {
+      "tag": "c:onions"
+    },
+    {
+      "tag": "c:onions"
+    },
+    {
+      "tag": "c:onions"
+    },
+    {
+      "tag": "c:salt"
+    }
+  ],
+  "output": {
+    "count": 5,
+    "item": "vintagedelight:pickled_onion"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ]
+}

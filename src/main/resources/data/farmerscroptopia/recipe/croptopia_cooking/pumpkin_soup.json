@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "tag": "c:onions"
+    },
+    {
+      "tag": "c:garlic"
+    },
+    {
+      "item": "croptopia:pepper"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "tag": "c:salts"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "croptopia:pumpkin_soup"
+  }
+}

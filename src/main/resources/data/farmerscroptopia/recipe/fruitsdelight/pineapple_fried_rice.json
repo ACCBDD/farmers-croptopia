@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "c:fruits/pineapple"
+    },
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "tag": "c:salad_ingredients/cabbage"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "fruitsdelight:pineapple_fried_rice"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fruitsdelight"
+    }
+  ]
+}

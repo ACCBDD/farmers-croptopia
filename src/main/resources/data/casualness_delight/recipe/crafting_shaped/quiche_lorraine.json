@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "m": {
+      "tag": "c:milk"
+    },
+    "D": {
+      "item": "farmersdelight:smoked_ham"
+    },
+    "B": {
+      "tag": "c:cooked_bacon"
+    },
+    "e": {
+      "tag": "c:eggs"
+    }
+  },
+  "pattern": [
+    "eee",
+    "BDB",
+    "mOm"
+  ],
+  "result": {
+    "id": "casualness_delight:quiche_lorraine"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "casualness_delight"
+    }
+  ]
+}

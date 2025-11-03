@@ -1,0 +1,38 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:cauldron"
+  },
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "tag": "c:vegetables/potato"
+    },
+    {
+      "tag": "c:milk"
+    },
+    {
+      "item": "brewinandchewin:scarlet_cheese_wheel"
+    },
+    {
+      "item": "farmersdelight:ham"
+    },
+    {
+      "tag": "c:bread"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "brewinandchewin:fiery_fondue_pot"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "c:milk"
+    },
+    {
+      "tag": "c:pasta/raw_pasta"
+    },
+    {
+      "tag": "c:raw_chicken"
+    },
+    {
+      "tag": "c:vegetables/onion"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "moredelight:creamy_pasta_with_chicken_cuts"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "moredelight"
+    }
+  ]
+}

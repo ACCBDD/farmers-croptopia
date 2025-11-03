@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "tag": "c:lettuce"
+    },
+    {
+      "tag": "c:lemons"
+    },
+    {
+      "tag": "c:cheeses"
+    }
+  ],
+  "result": {
+    "id": "croptopia:beetroot_salad"
+  }
+}

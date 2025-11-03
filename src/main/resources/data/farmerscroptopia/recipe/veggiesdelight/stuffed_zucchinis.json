@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "c:zucchini"
+    },
+    {
+      "tag": "c:zucchini"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "tag": "c:raw_beef"
+        },
+        {
+          "tag": "c:raw_chicken"
+        },
+        {
+          "tag": "c:raw_mutton"
+        }
+      ]
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "veggiesdelight:stuffed_zucchinis"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "veggiesdelight"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "casualness_delight:raw_cabbage_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:raw_cabbage_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:raw_potato_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:raw_potato_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:raw_chicken_bobo_chicken"
+    },
+    {
+      "item": "casualness_delight:raw_chicken_bobo_chicken"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    }
+  ],
+  "result": {
+    "id": "casualness_delight:bobo_chicken"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "casualness_delight"
+    }
+  ]
+}

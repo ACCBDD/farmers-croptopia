@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "seeddelight:pine_nut_kernel"
+    },
+    {
+      "item": "seeddelight:pine_nut_kernel"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "seeddelight:pinenut_with_meatballs"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "seeddelight"
+    }
+  ]
+}

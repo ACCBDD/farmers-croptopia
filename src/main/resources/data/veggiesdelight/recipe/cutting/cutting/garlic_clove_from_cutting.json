@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "type": "neoforge:difference",
+      "base": {
+        "tag": "c:garlic"
+      },
+      "subtracted": {
+        "item": "veggiesdelight:garlic_clove"
+      }
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 3,
+        "id": "veggiesdelight:garlic_clove"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "veggiesdelight"
+    }
+  ]
+}

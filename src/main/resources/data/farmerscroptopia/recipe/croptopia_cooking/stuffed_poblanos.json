@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "tag": "croptopia:beef_replacements"
+    },
+    {
+      "tag": "c:chile_peppers"
+    },
+    {
+      "tag": "c:blackbeans"
+    },
+    {
+      "tag": "c:corn"
+    },
+    {
+      "tag": "c:cheeses"
+    },
+    {
+      "tag": "c:rice"
+    }
+  ],
+  "result": {
+    "id": "croptopia:stuffed_poblanos",
+    "count": 1
+  }
+}

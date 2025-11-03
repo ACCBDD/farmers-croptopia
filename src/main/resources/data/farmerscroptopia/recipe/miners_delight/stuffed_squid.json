@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "c:squid"
+    },
+    {
+      "tag": "c:rice"
+    },
+    {
+      "tag": "c:rice"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minersdelight:cave_carrot"
+        },
+        {
+          "item": "minecraft:carrot"
+        }
+      ]
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:onions"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "minersdelight:stuffed_squid"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minersdelight"
+    }
+  ]
+}

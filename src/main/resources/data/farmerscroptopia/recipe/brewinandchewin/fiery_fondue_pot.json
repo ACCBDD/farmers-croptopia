@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "tag": "c:vegetables/potato"
+    },
+    {
+      "tag": "c:milk"
+    },
+    {
+      "item": "brewinandchewin:scarlet_cheese_wheel"
+    },
+    {
+      "item": "farmersdelight:ham"
+    },
+    {
+      "tag": "c:bread"
+    },
+    {
+      "item": "minecraft:cauldron"
+    }
+  ],
+  "result": {
+    "id": "brewinandchewin:fiery_fondue_pot"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ]
+}

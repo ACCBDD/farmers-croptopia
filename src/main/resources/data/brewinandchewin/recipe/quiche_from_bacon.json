@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "b": {
+      "tag": "c:cooked_bacon"
+    },
+    "c": {
+      "tag": "brewinandchewin:cheese_wedges"
+    },
+    "e": {
+      "item": "minecraft:egg"
+    },
+    "l": {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    "m": {
+      "tag": "c:milk"
+    }
+  },
+  "pattern": [
+    "blb",
+    "mcm",
+    "eCe"
+  ],
+  "result": {
+    "id": "brewinandchewin:quiche"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ]
+}

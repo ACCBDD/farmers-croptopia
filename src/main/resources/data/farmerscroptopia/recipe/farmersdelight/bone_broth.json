@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "c:bones"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:glow_berries"
+        },
+        {
+          "tag": "c:mushrooms"
+        },
+        {
+          "item": "minecraft:hanging_roots"
+        },
+        {
+          "item": "minecraft:glow_lichen"
+        }
+      ]
+    }
+  ],
+  "category": "meals",
+  "result": {
+    "id": "farmersdelight:bone_broth"
+  }
+}

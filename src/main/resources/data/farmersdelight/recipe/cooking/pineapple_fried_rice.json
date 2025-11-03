@@ -1,0 +1,37 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "c:fruits/pineapple"
+    },
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "tag": "c:salad_ingredients/cabbage"
+    },
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "result": {
+    "id": "fruitsdelight:pineapple_fried_rice"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fruitsdelight"
+    }
+  ]
+}

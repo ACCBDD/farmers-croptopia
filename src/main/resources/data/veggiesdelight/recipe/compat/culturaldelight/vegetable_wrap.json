@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:tortillas"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "tag": "c:crops/broccoli"
+        },
+        {
+          "tag": "c:salad_ingredients"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "veggiesdelight:smoked_bellpepper"
+        },
+        {
+          "item": "veggiesdelight:roasted_zucchini"
+        },
+        {
+          "tag": "c:mushrooms"
+        }
+      ]
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "id": "veggiesdelight:vegetables_wrap"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "veggiesdelight"
+    }
+  ]
+}

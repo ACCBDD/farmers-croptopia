@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "tag": "c:chilipepper"
+    },
+    {
+      "tag": "c:pasta"
+    },
+    {
+      "item": "farmersdelight:cooked_chicken_cuts"
+    },
+    {
+      "item": "vintagedelight:nut_mash_bottle"
+    },
+    {
+      "tag": "c:peanuts"
+    }
+  ],
+  "result": {
+    "id": "vintagedelight:pad_thai"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
-// 1.21.1	2025-11-02T12:08:03.210928	Tags for minecraft:item mod id farmers_croptopia
-78008d5719b82127101562e0d7effee0d0baa73c data/brewinandchewin/tags/item/pizza_toppings.json
+// 1.21.1	2025-11-02T17:18:58.5594281	Tags for minecraft:item mod id farmers_croptopia
+fad3ddfe7e9978634cc3ac5bbaa2c95244d40d0e data/brewinandchewin/tags/item/pizza_toppings.json
 373ed3a5e810be5fcf3b734a6066e794162bc544 data/croptopia/tags/item/beef_mutton.json
 373ed3a5e810be5fcf3b734a6066e794162bc544 data/croptopia/tags/item/beef_replacements.json
 c6f3378646d8a35e5dec76626be15d4dca4ad4c3 data/croptopia/tags/item/chicken_replacements.json
@@ -11,7 +11,7 @@ a55bb6f18a648d322a17c130bda1bf38eee0523d data/c/tags/item/avocados.json
 e314ccdc57d32e5ad07aecd5942ccc8a731a7c98 data/c/tags/item/bellpeppers.json
 fc02996b2d1515d0e3126035377777f1a94a0c6a data/c/tags/item/berries.json
 cc30d3f0ec089613f047427432873af406afaf50 data/c/tags/item/calamari.json
-fe360cdcc8bb6949477fb3b7f89106683e5a7582 data/c/tags/item/cheese.json
+d8dcc76cb36422d80e24ae58ba70dce90ab6fccb data/c/tags/item/cheese.json
 f81a4e57890aa947d0ae13777125b9736041b339 data/c/tags/item/cheeseburgers.json
 e3ed35ab71991319b8eeba6e612a85d0d94d3809 data/c/tags/item/cheeses.json
 35176f9b7b082ff3815a65f65265d775a253214e data/c/tags/item/cheese_pizzas.json
@@ -61,6 +61,8 @@ ec051f2240735f3946628a24424560bef6e61162 data/c/tags/item/fruits/cherry.json
 65b02970f32f6197d71f30f515938931f74fcf53 data/c/tags/item/pumpkin_soups.json
 8d17b8553e8813c17a30f3e655d57167a7d24918 data/c/tags/item/ratatouille.json
 79a9d2def8611bf5ca8a93fab5e97fa9939fb6a3 data/c/tags/item/raw_bacon.json
+1494547f2d633531167e5b41a0b37edd9ce08bac data/c/tags/item/raw_beef.json
+98fcc1c83c48a560a080370ef16b625953bab641 data/c/tags/item/raw_chicken.json
 b9092cc7250b67c6bad5310f58ebb38344eee043 data/c/tags/item/raw_fishes.json
 9afda1ca31ebec4c60bac6d9930b865c1a72ed68 data/c/tags/item/raw_fishes/calamari.json
 315678b2cd4c6e30ffa4f08c310e7562a8187101 data/c/tags/item/raw_fishes/cod.json

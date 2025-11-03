@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:cabbage"
+    },
+    {
+      "tag": "c:nuts/acorn"
+    },
+    {
+      "item": "seeddelight:acorn"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "seeddelight:stir_fried_cabbage_with_acorn"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "seeddelight"
+    }
+  ]
+}

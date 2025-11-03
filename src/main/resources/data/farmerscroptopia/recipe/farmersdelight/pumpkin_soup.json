@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "farmersdelight:pumpkin_slice"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "tag": "c:raw_pork"
+    },
+    {
+      "tag": "c:milk"
+    }
+  ],
+  "category": "meals",
+  "result": {
+    "id": "farmersdelight:pumpkin_soup"
+  }
+}

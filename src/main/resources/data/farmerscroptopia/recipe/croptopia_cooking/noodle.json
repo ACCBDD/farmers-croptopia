@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "tag": "c:water_bottles"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "tag": "c:flour"
+    }
+  ],
+  "result": {
+    "id": "croptopia:noodle",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "endersdelight:enderman_sight"
+    },
+    {
+      "tag": "endersdelight:shulker_loot"
+    },
+    {
+      "item": "minecraft:chorus_flower"
+    },
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "item": "endersdelight:shulker_bowl"
+    }
+  ],
+  "category": "drinks",
+  "result": {
+    "id": "endersdelight:ender_paella"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "endersdelight"
+    }
+  ]
+}

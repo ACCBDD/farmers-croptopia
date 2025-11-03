@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "#forge:cabbage",
+      "id": "#c:cabbage",
       "required": false
     },
     {
-      "id": "#forge:onions",
+      "id": "#c:onions",
       "required": false
     }
   ]

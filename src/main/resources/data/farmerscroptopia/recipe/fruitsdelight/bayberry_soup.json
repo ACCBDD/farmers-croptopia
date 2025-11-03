@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "c:fruits/bayberry"
+    },
+    {
+      "tag": "c:fruits/bayberry"
+    },
+    {
+      "tag": "c:fruits/bayberry"
+    },
+    {
+      "tag": "c:fruits/bayberry"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "fruitsdelight:bayberry_soup"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fruitsdelight"
+    }
+  ]
+}

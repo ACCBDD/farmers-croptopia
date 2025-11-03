@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "tag": "c:crops/rice"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "c:berries"
+    },
+    {
+      "tag": "c:vegetables"
+    }
+  ],
+  "category": "meals",
+  "result": {
+    "id": "farmersdelight:stuffed_pumpkin_block"
+  }
+}

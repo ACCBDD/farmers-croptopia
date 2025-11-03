@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:cooked_eggs"
+    },
+    {
+      "tag": "c:toasts"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "moredelight:toast_with_egg"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "moredelight"
+    }
+  ]
+}

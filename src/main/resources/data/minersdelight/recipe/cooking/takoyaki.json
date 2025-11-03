@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:tentacles"
+    },
+    {
+      "tag": "c:tentacles"
+    },
+    {
+      "tag": "c:dough"
+    },
+    {
+      "tag": "c:onions"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "minersdelight:takoyaki"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "minersdelight"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "tag": "c:crabs"
+    },
+    {
+      "tag": "c:dough"
+    },
+    {
+      "tag": "c:milks"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "c:onions"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "crabbersdelight:crab_cakes"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crabbersdelight"
+    }
+  ]
+}

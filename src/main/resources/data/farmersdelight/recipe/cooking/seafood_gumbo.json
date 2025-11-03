@@ -1,0 +1,35 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "c:raw_lobsters"
+    },
+    {
+      "tag": "c:shrimp"
+    },
+    {
+      "tag": "c:onions"
+    },
+    {
+      "tag": "c:rice"
+    },
+    {
+      "item": "minecraft:porkchop"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "crabbersdelight:seafood_gumbo"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "crabbersdelight"
+    }
+  ]
+}

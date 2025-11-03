@@ -1,0 +1,30 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "experience": 0.6,
+  "fermentingtime": 12000,
+  "ingredients": [
+    {
+      "tag": "c:cucumbers"
+    },
+    {
+      "tag": "c:cucumbers"
+    },
+    {
+      "tag": "c:cucumbers"
+    },
+    {
+      "tag": "c:cucumbers"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "culturaldelights:pickle"
+  },
+  "temperature": 2,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "culturaldelights"
+    }
+  ]
+}

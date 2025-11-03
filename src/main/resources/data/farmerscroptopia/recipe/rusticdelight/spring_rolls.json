@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "rusticdelight:cooking_oil"
+    },
+    {
+      "tag": "c:dough"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "tag": "farmersdelight:cabbage_roll_ingredients"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "rusticdelight:spring_rolls"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rusticdelight"
+    }
+  ]
+}

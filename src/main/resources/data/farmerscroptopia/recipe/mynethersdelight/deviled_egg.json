@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "tag": "c:boiled_egg"
+    },
+    {
+      "tag": "mynethersdelight:hot_spice"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "mynethersdelight:hoglin_sausage"
+        },
+        {
+          "item": "farmersdelight:bacon"
+        }
+      ]
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "mynethersdelight:deviled_egg"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mynethersdelight"
+    }
+  ]
+}

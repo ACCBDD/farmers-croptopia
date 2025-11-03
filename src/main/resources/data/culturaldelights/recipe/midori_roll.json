@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ! ",
+    "@?@",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dried_kelp"
+    },
+    "@": {
+      "item": "farmersdelight:cooked_rice"
+    },
+    "?": {
+      "tag": "c:avocados"
+    },
+    "!": {
+      "tag": "c:cucumbers"
+    }
+  },
+  "result": {
+    "id": "culturaldelights:midori_roll"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "culturaldelights"
+    }
+  ]
+}

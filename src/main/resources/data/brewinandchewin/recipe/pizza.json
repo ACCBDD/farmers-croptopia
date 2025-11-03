@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "f": {
+      "tag": "c:cheese"
+    },
+    "p": {
+      "tag": "brewinandchewin:pizza_toppings"
+    },
+    "t": {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    "w": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    " f ",
+    "ptp",
+    "www"
+  ],
+  "result": {
+    "id": "brewinandchewin:pizza"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ]
+}
