@@ -661,6 +661,19 @@ public class CommonTags {
     //cultural delight
     public static final TagKey<Item> SMOKED_EGGPLANTS = tag("smoked_eggplants");
 
+    //fruits delight
+    public static final TagKey<Item> FRUITS$BAYBERRY = tag("fruits/bayberry");
+    public static final TagKey<Item> FRUITS$HAWBERRY = tag("fruits/hawberry");
+    public static final TagKey<Item> FRUITS$LYCHEE = tag("fruits/lychee");
+    public static final TagKey<Item> FRUITS$MANGOSTEEN = tag("fruits/mangosteen");
+    public static final TagKey<Item> JAMS$BAYBERRY_JAM = tag("jams/bayberry_jam");
+    public static final TagKey<Item> JAMS$HAWBERRY_JAM = tag("jams/hawberry_jam");
+    public static final TagKey<Item> JAMS$LYCHEE_JAM = tag("jams/lychee_jam");
+    public static final TagKey<Item> JAMS$MANGOSTEEN_JAM = tag("jams/mangosteen_jam");
+
+    //miners delight
+    public static final TagKey<Item> SQUID = tag("squid");
+
     private static TagKey<Item> tag(String path) {
         return ItemTags.create(ResourceLocation.fromNamespaceAndPath(COMMON_NAMESPACE, path));
     }

@@ -14,7 +14,7 @@
       "item": "minecraft:red_mushroom"
     }
   ],
-  "category": "meals",
+  "category": "misc",
   "result": {
     "id": "minecraft:mushroom_stew"
   }

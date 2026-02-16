@@ -20,7 +20,7 @@
       "item": "minecraft:cocoa_beans"
     }
   ],
-  "category": "drinks",
+  "category": "misc",
   "result": {
     "id": "farmersdelight:hot_cocoa"
   }

@@ -34,19 +34,24 @@ public class ItemTagGenerator extends ItemTagsProvider {
                 Content.RASPBERRY.asItem(),
                 Content.STRAWBERRY.asItem(),
                 Content.RASPBERRY.asItem());
+        tag(CommonTags.BREAD).addOptionalTag(loc("c:foods/bread"));
         tag(CommonTags.CHEESES).addTag(CommonTags.CHEESE);
+        tag(CommonTags.COOKED_CHICKEN).add(Items.COOKED_CHICKEN);
         tag(CommonTags.COOKED_EGGS).add(Content.SUNNY_SIDE_EGGS, Content.SCRAMBLED_EGGS);
         tag(CommonTags.COOKED_FISHES).addTags(CommonTags.COOKED_FISHES$COD, CommonTags.COOKED_FISHES$SALMON);
         tag(CommonTags.COOKED_FISHES).add(Content.COOKED_CALAMARI.asItem(), Content.COOKED_ANCHOVY.asItem(), Content.COOKED_SHRIMP.asItem(), Content.COOKED_TUNA.asItem());
         tag(CommonTags.COOKED_FISHES$COD).add(Items.COOKED_COD);
         tag(CommonTags.COOKED_FISHES$SALMON).add(Items.COOKED_SALMON);
+        tag(CommonTags.COOKED_MUTTON).add(Items.COOKED_MUTTON);
         tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:cooked_shrimp"));
         tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:steamed_crab"));
         tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:grilled_oysters"));
         tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:steamed_clams"));
-        tag(CommonTags.DOUGH).add(ModItems.WHEAT_DOUGH.get(), Content.DOUGH);
+        tag(CommonTags.DOUGH$WHEAT).add(ModItems.WHEAT_DOUGH.get(), Content.DOUGH);
+        tag(CommonTags.DOUGH).addTag(CommonTags.DOUGH$WHEAT);
         tag(CommonTags.DOUGHS).addTag(CommonTags.DOUGH);
         tag(ItemTags.FISHES).addOptionalTag(CommonTags.RAW_SEAFOOD);
+        tag(CommonTags.GRAIN$WHEAT).add(Items.WHEAT);
         tag(CommonTags.MILK).add(Items.MILK_BUCKET, Content.SOY_MILK, Content.MILK_BOTTLE, ModItems.MILK_BOTTLE.get());
         tag(CommonTags.MILKS).addTag(CommonTags.MILK);
         tag(CommonTags.PASTA).addTag(CommonTags.PASTA$RAW_PASTA);
@@ -76,6 +81,10 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.SALAD_INGREDIENTS$LETTUCE).addOptionalTag(CommonTags.LETTUCE);
         tag(CommonTags.SALAD_INGREDIENTS).addOptionalTags(CommonTags.SALAD_INGREDIENTS$CABBAGE, CommonTags.SALAD_INGREDIENTS$LETTUCE);
         tag(CommonTags.SHEPHERDS_PIE).add(ModItems.SHEPHERDS_PIE.get());
+        tag(CommonTags.VEGETABLES$BELLPEPPER).add(Content.BELLPEPPER.asItem());
+        tag(CommonTags.VEGETABLES$BEETROOT).add(Items.BEETROOT);
+        tag(CommonTags.VEGETABLES$CARROT).add(Items.CARROT);
+        tag(CommonTags.VEGETABLES$POTATO).add(Items.POTATO);
 
         //fd base to croptopia tags
         tag(CommonTags.RAW_BEEF).addOptionalTag(loc("c:foods/raw_beef"));
@@ -91,6 +100,12 @@ public class ItemTagGenerator extends ItemTagsProvider {
                 CommonTags.RAW_MUTTON);
 
         //rustic delight
+        tag(CommonTags.VEGETABLES$BELLPEPPER).addOptional(loc("rusticdelight:bell_pepper_green"));
+        tag(CommonTags.VEGETABLES$BELLPEPPER).addOptional(loc("rusticdelight:bell_pepper_red"));
+        tag(CommonTags.VEGETABLES$BELLPEPPER).addOptional(loc("rusticdelight:bell_pepper_yellow"));
+        tag(CommonTags.VEGETABLES$BELLPEPPER).addOptional(loc("rusticdelight:bell_pepper_slice_green"));
+        tag(CommonTags.VEGETABLES$BELLPEPPER).addOptional(loc("rusticdelight:bell_pepper_slice_red"));
+        tag(CommonTags.VEGETABLES$BELLPEPPER).addOptional(loc("rusticdelight:bell_pepper_slice_yellow"));
         tag(CommonTags.VEGETABLES).addOptionalTag(CommonTags.VEGETABLES$BELLPEPPER);
         tag(CommonTags.BELLPEPPERS).addOptionalTag(CommonTags.VEGETABLES$BELLPEPPER);
         tag(CommonTags.COFFEE_BEANS).addOptional(loc("rusticdelight:roasted_coffee_beans")); //roasted, not raw
@@ -151,7 +166,7 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.GLOWING_CALAMARI).addOptional(loc("crabbersdelight:raw_glow_squid_tentacles"));
         tag(CommonTags.RAW_FISHES$FUGU).addOptional(loc("crabbersdelight:pufferfish_slice"));
         tag(CommonTags.RAW_FROG_LEGS).addOptional(loc("crabbersdelight:raw_frog_leg"));
-        tag(CommonTags.RAW_LOBSTERS).addOptional(loc("crabbersdelight:raw_clawster"));
+        tag(CommonTags.RAW_LOBSTERS).addOptional(loc("crabbersdelight:clawster"));
         tag(CommonTags.RAW_SEAFOOD).addOptionalTag(loc("crabbersdelight:raw_seafood"));
         tag(CommonTags.STEAMED_CRABS).addOptional(loc("crabbersdelight:cooked_crab"));
         tag(CommonTags.SHRIMP).addOptional(loc("crabbersdelight:shrimp"));
@@ -208,6 +223,30 @@ public class ItemTagGenerator extends ItemTagsProvider {
 
         //farmer respite
         tag(CommonTags.COFFEE_BEANS).addOptional(loc("farmersrespite:coffee_beans"));
+
+        //fruits delight
+        tag(CommonTags.JAMS);
+        tag(CommonTags.FRUITS$BAYBERRY).addOptional(loc("fruitsdelight:bayberry"));
+        tag(CommonTags.FRUITS$BLUEBERRY).addOptional(loc("fruitsdelight:blueberry"));
+        tag(CommonTags.FRUITS$CRANBERRY).addOptional(loc("fruitsdelight:cranberry"));
+        tag(CommonTags.FRUITS$FIG).addOptional(loc("fruitsdelight:fig"));
+        tag(CommonTags.FRUITS$HAWBERRY).addOptional(loc("fruitsdelight:hawberry"));
+        tag(CommonTags.FRUITS$KIWI).addOptional(loc("fruitsdelight:kiwi"));
+        tag(CommonTags.FRUITS$LEMON).addOptional(loc("fruitsdelight:lemon"));
+        tag(CommonTags.FRUITS$LYCHEE).addOptional(loc("fruitsdelight:lychee"));
+        tag(CommonTags.FRUITS$MANGO).addOptional(loc("fruitsdelight:mango"));
+        tag(CommonTags.FRUITS$MANGOSTEEN).addOptional(loc("fruitsdelight:mangosteen"));
+        tag(CommonTags.FRUITS$ORANGE).addOptional(loc("fruitsdelight:orange"));
+        tag(CommonTags.FRUITS$PEACH).addOptional(loc("fruitsdelight:peach"));
+        tag(CommonTags.FRUITS$PEAR).addOptional(loc("fruitsdelight:pear"));
+        tag(CommonTags.FRUITS$PERSIMMON).addOptional(loc("fruitsdelight:persimmon"));
+        tag(CommonTags.FRUITS$PINEAPPLE).addOptional(loc("fruitsdelight:pineapple"));
+
+        //miner's delight
+        tag(CommonTags.SQUID).addOptionalTag(loc("c:foods/squid"));
+
+        //my nether's delight
+        tag(CommonTags.DOUGH).addOptional(loc("mynethersdelight:ghast_dough"));
     }
 
     private static ResourceLocation loc(String str) {

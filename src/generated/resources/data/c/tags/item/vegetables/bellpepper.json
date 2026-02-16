@@ -1,0 +1,29 @@
+{
+  "values": [
+    "croptopia:bellpepper",
+    {
+      "id": "rusticdelight:bell_pepper_green",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:bell_pepper_red",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:bell_pepper_yellow",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:bell_pepper_slice_green",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:bell_pepper_slice_red",
+      "required": false
+    },
+    {
+      "id": "rusticdelight:bell_pepper_slice_yellow",
+      "required": false
+    }
+  ]
+}

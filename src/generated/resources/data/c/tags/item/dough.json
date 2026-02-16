@@ -1,6 +1,9 @@
 {
   "values": [
-    "farmersdelight:wheat_dough",
-    "croptopia:dough"
+    "#c:dough/wheat",
+    {
+      "id": "mynethersdelight:ghast_dough",
+      "required": false
+    }
   ]
 }

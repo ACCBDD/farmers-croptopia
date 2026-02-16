@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-02T17:18:58.5594281	Tags for minecraft:item mod id farmers_croptopia
+// 1.21.1	2026-02-15T23:33:43.0787007	Tags for minecraft:item mod id farmers_croptopia
 fad3ddfe7e9978634cc3ac5bbaa2c95244d40d0e data/brewinandchewin/tags/item/pizza_toppings.json
 373ed3a5e810be5fcf3b734a6066e794162bc544 data/croptopia/tags/item/beef_mutton.json
 373ed3a5e810be5fcf3b734a6066e794162bc544 data/croptopia/tags/item/beef_replacements.json
@@ -10,6 +10,7 @@ a55bb6f18a648d322a17c130bda1bf38eee0523d data/c/tags/item/avocados.json
 72feafe0cc75b21b8ceec55940bad75588b836b7 data/c/tags/item/baked_sweet_potatos.json
 e314ccdc57d32e5ad07aecd5942ccc8a731a7c98 data/c/tags/item/bellpeppers.json
 fc02996b2d1515d0e3126035377777f1a94a0c6a data/c/tags/item/berries.json
+e6bcc9908a4c9a393b18270336175c72e09c4ac5 data/c/tags/item/bread.json
 cc30d3f0ec089613f047427432873af406afaf50 data/c/tags/item/calamari.json
 d8dcc76cb36422d80e24ae58ba70dce90ab6fccb data/c/tags/item/cheese.json
 f81a4e57890aa947d0ae13777125b9736041b339 data/c/tags/item/cheeseburgers.json
@@ -23,6 +24,7 @@ b14512a4614b67738fa31ad0fa5a0fdf02ce963c data/c/tags/item/cherry_jams.json
 4d2eddc7e4e5314b4d2cc34809deee53ed92883b data/c/tags/item/coffees.json
 37c4e33e812be4cc8aa1b700e12ff688fe98aec4 data/c/tags/item/coffee_beans.json
 ec78477a207e474dde85fa099a5d61634ef78552 data/c/tags/item/cooked_calamari.json
+c3c27458abd0552603e7efa5057e67df2cdca0e5 data/c/tags/item/cooked_chicken.json
 d11a9bcb663911d7ae8d0a956bde52a6d4ca663e data/c/tags/item/cooked_eggs.json
 d0aeae759b5160c8e9a7fdbf30f39cf19dfddaf2 data/c/tags/item/cooked_fishes.json
 57f714afa3b4f72fa7c109dd0eca592b41d45443 data/c/tags/item/cooked_fishes/calamari.json
@@ -31,19 +33,37 @@ d6b5b7799475929b2d4567b6d70a50278145d2c1 data/c/tags/item/cooked_fishes/fugu.jso
 606f7f87c60718be3fdbf8a3491ad3fb2edf83b4 data/c/tags/item/cooked_fishes/salmon.json
 fb96e2053761993d0c5581de9f530d54e27111e3 data/c/tags/item/cooked_frog_legs.json
 571b6b7f7e87d7bbba26cbfbac09e6cd818bfb35 data/c/tags/item/cooked_lobsters.json
+c18b5cb2923eb4955572b2bb32cbbee4445bb993 data/c/tags/item/cooked_mutton.json
 e23cfa95f8ce0732369545be0d2fae8707ba15c0 data/c/tags/item/cooked_seafood.json
 f01ba6a4febd5154d7d8deb280fa2810095b5f60 data/c/tags/item/cooked_shrimp.json
 821cc71b55d2591976263a7c9a4a10f2d47816c6 data/c/tags/item/cooked_tentacles.json
 8be00034bc3942fbb908eb2c52247fa5340aa296 data/c/tags/item/crabs.json
 af8f03ece84be09212802f3b942e167ba618138b data/c/tags/item/cucumber_salads.json
 35bbdb906431a03e927d6fe0819f9d0c450e7305 data/c/tags/item/deep_fried_shrimp.json
-a7d6d6b563dd5688daa490cac6d66af3c38dd7b0 data/c/tags/item/dough.json
+fefd5c18e0f3e94c135de928038b3aea519140f2 data/c/tags/item/dough.json
 6dba5fe976b77f5875d680c09ae5991eada0306d data/c/tags/item/doughs.json
+a7d6d6b563dd5688daa490cac6d66af3c38dd7b0 data/c/tags/item/dough/wheat.json
 2e277b351cc86fcc0179858ae74cee33ffef4f2f data/c/tags/item/eggplants.json
 6168e624e58470d7c866441f2696583579b43165 data/c/tags/item/fish_and_chips.json
+07b7226c56a4f7dff6b413e108b2ed7312a0f29d data/c/tags/item/fruits/bayberry.json
+d53c6ed348c898697f873fbeb1849de7aed336a9 data/c/tags/item/fruits/blueberry.json
 ec051f2240735f3946628a24424560bef6e61162 data/c/tags/item/fruits/cherry.json
+6f4bc627d39f45f1cb6dd293cce7eaa765d68058 data/c/tags/item/fruits/cranberry.json
+0c56c904b4682d7e6bf4d2db34bfb042c8e87e9f data/c/tags/item/fruits/fig.json
+04869214aeedf86369d98a7d40d71cf405be1c16 data/c/tags/item/fruits/hawberry.json
+0c116162ee83cbecc69ae91054731758e4dfed13 data/c/tags/item/fruits/kiwi.json
+91d3c9b06d2014fe3fa9a1cbbcc876325ef7a28e data/c/tags/item/fruits/lemon.json
+46e4eb7b6ba04c3713eac9d985a802bef5871e9b data/c/tags/item/fruits/lychee.json
+1b6e6f07d10d211505006ece8d10b0757c630c47 data/c/tags/item/fruits/mango.json
+472ea0e687b15b27d1cdf36a72802b72a7cdc30f data/c/tags/item/fruits/mangosteen.json
+201f463e5e5e7b1c26076e31036aa1b5312e3ce2 data/c/tags/item/fruits/orange.json
+91a8b08db282562e553942684fba68d72816a5c4 data/c/tags/item/fruits/peach.json
+b92efc141ebe2dc6eaa03c314ba5d0ebdd6560e7 data/c/tags/item/fruits/pear.json
+5a7444299e86f94965bd8bc7c0379cab9e52a883 data/c/tags/item/fruits/persimmon.json
+2a1bf5fac7b3d6222be31a9fc93c7a46bfe68b09 data/c/tags/item/fruits/pineapple.json
 07dc79358fa9fe28f6752aff84bf58de440a9e21 data/c/tags/item/glowing_calamari.json
 2aee72254da4d218e414db129a86a48e16c048e7 data/c/tags/item/grain/oats.json
+9c99444249ea9362072a08ee44c2d01c8ab03176 data/c/tags/item/grain/wheat.json
 576ed75d0bc4631ce346236163d9edcb8e97d80a data/c/tags/item/jams.json
 72c53bff12db1d1cee761bb3f3a5c072820847b1 data/c/tags/item/milk.json
 440aa6ea70e7591d3f019af576e6d44d0a85e116 data/c/tags/item/milks.json
@@ -71,7 +91,7 @@ cc746d8cdf2c6550af05c5546821e01f2f711a56 data/c/tags/item/raw_fishes/fugu.json
 3fe6df0882f02c83c296f5dfaed148dab475c556 data/c/tags/item/raw_fishes/salmon.json
 8eeab6448dd6076a212959e471057cb1a16e3950 data/c/tags/item/raw_fishes/tropical_fish.json
 bcf39d7f8cac3515a0fa661708dbdaa6d12c7e11 data/c/tags/item/raw_frog_legs.json
-dd9206b28a4fc6c336fd834b30957359092fe90c data/c/tags/item/raw_lobsters.json
+7be60df2be00f455ee5971f2c07c0fd5daee4cd6 data/c/tags/item/raw_lobsters.json
 3a49a4024d4369ce405f4090eee021ca4c3ae4d3 data/c/tags/item/raw_mutton.json
 6d3d1027ab27dd6d75996a7965614ac1a631e997 data/c/tags/item/raw_pork.json
 b0b835ed47602b7ee3426c2cbc464ce8d189c232 data/c/tags/item/raw_seafood.json
@@ -83,6 +103,7 @@ e1be76536c3f9a8cecfe972cd29ed9eaeb7d3200 data/c/tags/item/salad_ingredients/cabb
 59a4666fe8d21ebf25eaf6e3a4740b17e1394348 data/c/tags/item/shrimp.json
 1d100a59f9d4521b3cb0b607c0d4f0130feda0b8 data/c/tags/item/sliced_potato.json
 eed0b6fe1985477069f97be8c132dd6f8b526d1f data/c/tags/item/smoked_eggplants.json
+7b24af4ca16ee984adf2a01ef85ebc38e6fa9ad5 data/c/tags/item/squid.json
 3ad83477875b5877dfa420e18a6667735a239b44 data/c/tags/item/steamed_crabs.json
 e530b99d038d545339e2d80ebe37716aa4ab5a3e data/c/tags/item/sweetpotatos.json
 f8d873af604cbc003fe9d7e5aea41a563a99281b data/c/tags/item/tentacles.json
@@ -90,4 +111,8 @@ f8d873af604cbc003fe9d7e5aea41a563a99281b data/c/tags/item/tentacles.json
 5cf2212033f4ffa49bb20b31b258935b4609619d data/c/tags/item/tofu.json
 3f42128b4b110e2faf9c39acc4ea8cec58684613 data/c/tags/item/tortillas.json
 e314ccdc57d32e5ad07aecd5942ccc8a731a7c98 data/c/tags/item/vegetables.json
+f9570db096e701a0b8872dddbb31d8dffea2a204 data/c/tags/item/vegetables/beetroot.json
+503befb50ab2770ced3b68362c5819c4cdfed9b0 data/c/tags/item/vegetables/bellpepper.json
+3a6049fdf6a247720cef5ea417a0c9519f707e01 data/c/tags/item/vegetables/carrot.json
+849f851b30eb74acf2ca9316cd9708544427ecbc data/c/tags/item/vegetables/potato.json
 62ad3c9e8cc50edc6a0bf8526b5b3503de31e96c data/minecraft/tags/item/fishes.json
