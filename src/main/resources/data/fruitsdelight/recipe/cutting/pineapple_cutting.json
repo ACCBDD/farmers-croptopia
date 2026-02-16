@@ -1,13 +1,18 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fruitsdelight"
+    }
+  ],
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "tag": "c:fruits/pineapple"
+      "item": "fruitsdelight:pineapple"
     }
   ],
   "result": [
     {
-
       "item": {
         "count": 6,
         "id": "fruitsdelight:pineapple_slice"
@@ -15,23 +20,19 @@
     },
     {
       "item": {
+        "count": 1,
         "id": "fruitsdelight:pineapple_sapling"
       }
     },
     {
       "chance": 0.5,
       "item": {
+        "count": 1,
         "id": "fruitsdelight:pineapple_sapling"
       }
     }
   ],
   "tool": {
-    "tag": "c:tools/knives"
-  },
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "fruitsdelight"
-    }
-  ]
+    "tag": "c:tools/knife"
+  }
 }
