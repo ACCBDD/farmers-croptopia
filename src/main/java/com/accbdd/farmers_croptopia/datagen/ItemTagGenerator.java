@@ -45,7 +45,7 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:grilled_oysters"));
         tag(CommonTags.COOKED_SEAFOOD).addOptional(loc("croptopia:steamed_clams"));
         tag(CommonTags.DOUGH).add(ModItems.WHEAT_DOUGH.get(), Content.DOUGH);
-        tag(CommonTags.DOUGHS).addTag(CommonTags.DOUGH);
+        tag(CommonTags.DOUGHS).addOptionalTag(CommonTags.DOUGH);
         tag(ItemTags.FISHES).addOptionalTag(CommonTags.RAW_SEAFOOD);
         tag(CommonTags.MILK).add(Items.MILK_BUCKET, Content.SOY_MILK, Content.MILK_BOTTLE, ModItems.MILK_BOTTLE.get());
         tag(CommonTags.MILKS).addTag(CommonTags.MILK);

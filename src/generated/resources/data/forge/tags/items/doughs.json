@@ -1,5 +1,8 @@
 {
   "values": [
-    "#forge:dough"
+    {
+      "id": "#forge:dough",
+      "required": false
+    }
   ]
 }
