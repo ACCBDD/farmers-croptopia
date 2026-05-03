@@ -1,5 +1,4 @@
+# Farmer's Croptopia v1.21.1-3.2.2
+
 ## Fixed
-* Various empty tags - #25
-* Fruits Delight recipes and tags - #26
-* My Nether's Delight recipes and tags - #27
-* Certain crafting recipes having invalid recipe categories - #27
+* Cooked bacon and cooked eggs not correctly being tagged

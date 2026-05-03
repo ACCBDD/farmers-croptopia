@@ -37,7 +37,8 @@ public class ItemTagGenerator extends ItemTagsProvider {
         tag(CommonTags.BREAD).addOptionalTag(loc("c:foods/bread"));
         tag(CommonTags.CHEESES).addTag(CommonTags.CHEESE);
         tag(CommonTags.COOKED_CHICKEN).add(Items.COOKED_CHICKEN);
-        tag(CommonTags.COOKED_EGGS).add(Content.SUNNY_SIDE_EGGS, Content.SCRAMBLED_EGGS);
+        tag(CommonTags.COOKED_BACON).addOptionalTag(vectorwing.farmersdelight.common.tag.CommonTags.FOODS_COOKED_BACON);
+        tag(CommonTags.COOKED_EGGS).add(Content.SUNNY_SIDE_EGGS, Content.SCRAMBLED_EGGS).addOptionalTag(vectorwing.farmersdelight.common.tag.CommonTags.FOODS_COOKED_EGG);
         tag(CommonTags.COOKED_FISHES).addTags(CommonTags.COOKED_FISHES$COD, CommonTags.COOKED_FISHES$SALMON);
         tag(CommonTags.COOKED_FISHES).add(Content.COOKED_CALAMARI.asItem(), Content.COOKED_ANCHOVY.asItem(), Content.COOKED_SHRIMP.asItem(), Content.COOKED_TUNA.asItem());
         tag(CommonTags.COOKED_FISHES$COD).add(Items.COOKED_COD);
