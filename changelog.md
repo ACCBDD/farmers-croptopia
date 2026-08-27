@@ -1,9 +1,5 @@
-# Farmer's Croptopia v1.21.1-3.2.3
+# Farmer's Croptopia v1.21.1-3.2.4
 
-## Changed
-* Targeting Neoforge 21.1.248
 
 ## Fixed
-* `c:boiled_eggs` -> `c:foods/boiled_egg`
-* `c:tools/knives` -> `c:tools/knife`
-* Several recipes missing load conditions, leading to log spam - #31
+* 10 recipes using `c:tools/knives` instead of `c:tools/knife`

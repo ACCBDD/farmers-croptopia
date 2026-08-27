@@ -25,7 +25,7 @@
     }
   ],
   "tool": {
-    "tag": "c:tools/knives"
+    "tag": "c:tools/knife"
   },
   "neoforge:conditions": [
     {
